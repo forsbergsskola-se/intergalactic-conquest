@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34df94cef915188419608d017719a892, type: 3}
-  m_Name: ExampleStaff
+  m_Script: {fileID: 11500000, guid: 4065810254718d84088b95107b0cdee9, type: 3}
+  m_Name: Diplomacy
   m_EditorClassIdentifier: 
-  Strategy: {fileID: 11400000, guid: b728120170215414db896ab26e0a551c, type: 2}
-  SubStrategy: {fileID: 11400000, guid: ecc846026c616f24287de1e0bf32566a, type: 2}
+  SubStrategies:
+  - {fileID: 11400000, guid: 9a503c6f9d2a6354c97f6852451fdc0c, type: 2}
+  - {fileID: 11400000, guid: b5030719ee160a345ae17fa32ca48637, type: 2}

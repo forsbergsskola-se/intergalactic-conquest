@@ -1,12 +1,23 @@
 ﻿using UnityEngine;
-/*
- * The class related staff that can be purchased on a  planet
- * Current requirement for the staff include:
- * probably contains current lvl, influence amount generated per tick and ???Other effects
- */
 
 [CreateAssetMenu(fileName = "Staff", menuName = "ScriptableObjects/Staff", order = 3)]
 public class Staff : ScriptableObject
 {
-    
+    [Header("Staff Information")]
+    public string Name;
+
+    [Space]
+    public string Title;
+
+    [Space]
+    public Planet HomeWorld;
+
+    [Header("Strategy Specialization")]
+    public Strategy Strategy;
+
+    [Space]
+    public SubStrategy SubStrategy;
+
+    [Header("Influence Settings")]
+    public int InfluencePerincrement;
 }

@@ -12,9 +12,12 @@ public class PlanetManager : MonoBehaviour
 
     private void Start() {
         
-        CurrentPlanet.OnInfluenceChange.AddListener(UpdateDomination);
-        SetUpDomination(CurrentPlanet);
-        UpdateDomination();
+        if(CurrentPlanet != null){
+            
+            UpdateDomination();
+            SetUpDomination(CurrentPlanet);
+            CurrentPlanet.OnInfluenceChange.AddListener(UpdateDomination);
+        }
     }
 
     public void SetUpDomination(Planet planet){

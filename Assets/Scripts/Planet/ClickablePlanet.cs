@@ -35,6 +35,7 @@ public class ClickablePlanet : MonoBehaviour, IPointerClickHandler
     {
         this.image.transform.localScale = sizeMultiplier;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    
     }
     
     void OnValidate()
