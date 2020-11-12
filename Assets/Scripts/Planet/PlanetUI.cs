@@ -6,13 +6,16 @@ using Image = UnityEngine.UI.Image;
 [RequireComponent(typeof(Image))]
 public class PlanetUI : MonoBehaviour, IPointerClickHandler
 {
-    [Tooltip("multiplayer to enlarge planet image on click")] public float enlargeMultiplier;
+    [Tooltip("multiplayer to enlarge planet image on click")] 
+    public float enlargeMultiplier;
+
     private Vector3 sizeMultiplier = Vector3.one;
     private Image image;
     
     private void Start()
     {
         this.image = GetComponent<Image>();
+        
         if (this.image == null)
         {
             Debug.Log("Warning, no image found", this);
