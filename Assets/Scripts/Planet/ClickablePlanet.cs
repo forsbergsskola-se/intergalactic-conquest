@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using Image = UnityEngine.UI.Image;
 
 [RequireComponent(typeof(Image))]
-public class PlanetUI : MonoBehaviour, IPointerClickHandler
+public class ClickablePlanet : MonoBehaviour, IPointerClickHandler
 {
     [Tooltip("multiplayer to enlarge planet image on click")] 
     public float enlargeMultiplier;

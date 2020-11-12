@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistentData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SolarSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/ClickablePlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605103238529</updated>
       <workItem from="1605103246736" duration="3731000" />
-      <workItem from="1605193465660" duration="621000" />
+      <workItem from="1605193465660" duration="3095000" />
     </task>
     <servers />
   </component>
