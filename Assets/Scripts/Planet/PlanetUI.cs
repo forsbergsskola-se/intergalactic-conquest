@@ -1,6 +1,7 @@
 ﻿
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using Image = UnityEngine.UI.Image;
 
 [RequireComponent(typeof(Image))]
@@ -33,13 +34,7 @@ public class PlanetUI : MonoBehaviour, IPointerClickHandler
     private void ClickEvent()
     {
         this.image.transform.localScale = sizeMultiplier;
-        //TODO create popup or switch screen.
-        
-        // If changing scene
-        // LoadScene(string sceneName, SceneManagement.LoadSceneMode mode = LoadSceneMode.Single);
-        
-        // If popup
-        // Instantiate();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
     void OnValidate()

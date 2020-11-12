@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="" />
+    <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +47,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistentData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SolarSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605103238529</updated>
       <workItem from="1605103246736" duration="3731000" />
+      <workItem from="1605193465660" duration="621000" />
     </task>
     <servers />
   </component>
@@ -107,6 +117,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
