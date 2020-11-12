@@ -7,18 +7,8 @@ using UnityEngine;
  * lvl, cost, level requirements for purchase, overall influence yield multiplier, branch yield multiplier, and maybe click yield multiplier
  */
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Upgrade", order = 4)]
+[CreateAssetMenu(fileName = "Upgrade", menuName = "ScriptableObjects/Upgrade", order = 4)]
 public class Upgrade : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

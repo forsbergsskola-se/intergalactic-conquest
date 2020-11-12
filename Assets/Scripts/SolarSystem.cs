@@ -8,6 +8,7 @@
 /// </summary>
 public class SolarSystem : MonoBehaviour
 {
+    [Header("Planets")]
     [Tooltip("Holds the planets for this solar system. Populate Planets by drag and drop")] 
-    public Planet[] PlanetArray;
+    public Planet[] Planets;
 }
