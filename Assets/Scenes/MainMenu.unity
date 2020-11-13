@@ -279,6 +279,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 815179821956822747, guid: 4052f9798b162064baf592becbb54f51, type: 3}
+      propertyPath: s_VolumeSliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 121522689}
+    - target: {fileID: 815179821956822747, guid: 4052f9798b162064baf592becbb54f51, type: 3}
+      propertyPath: s_VolumeSliders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1924030534}
+    - target: {fileID: 815179821956822747, guid: 4052f9798b162064baf592becbb54f51, type: 3}
+      propertyPath: s_VolumeSliders.Array.data[2]
+      value: 
+      objectReference: {fileID: 808761610}
     - target: {fileID: 815179821956822748, guid: 4052f9798b162064baf592becbb54f51, type: 3}
       propertyPath: m_Name
       value: AudioController
@@ -1485,10 +1497,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1699997061}
   m_HandleRect: {fileID: 545582910}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

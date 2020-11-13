@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Audio/GeneralVolume.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/../../Audio/GeneralVolume.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoundSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoundSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605272830252</updated>
-      <workItem from="1605272832704" duration="12150000" />
+      <workItem from="1605272832704" duration="12759000" />
     </task>
     <servers />
   </component>
