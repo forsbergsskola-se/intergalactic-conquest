@@ -5,30 +5,45 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 
 [RequireComponent (typeof(Slider))]
-public class SettingsMenu : MonoBehaviour
+public class MenuSettings : MonoBehaviour
 {
     Slider slider
     {
         get { return GetComponent<Slider>(); }
     }
-    public AudioMixer audioMixer;
+    
     [SerializeField] private string volumeName;
     [SerializeField] public Text volumeLabel;
 
     private void Start()
     {
-        SetVolume(slider.value);
+        ResetSliderValue(); 
+        
         slider.onValueChanged.AddListener(delegate
         {
-            SetVolume(slider.value);
+            UpdateValueOnChange(slider.value);
         });
     }
-    public void SetVolume(float value)
+    public void UpdateValueOnChange(float value)
     {
-        if (audioMixer != null)
-        audioMixer.SetFloat(volumeName, Mathf.Log(value) * 20f);
-
         if (volumeLabel != null)
+        {
             volumeLabel.text = Mathf.Round(value * 100.0f).ToString() + "%";
+        }
+
+        if (Settings.profile)
+        {
+            Settings.profile.SetAudioLevels(volumeName, value);
+        }
+    }
+
+    public void ResetSliderValue()
+    {
+        if (Settings.profile)
+        {
+            float volume = Settings.profile.GetAudioLevels(volumeName);
+            UpdateValueOnChange(volume);
+            slider.value = volume;
+        }
     }
 }

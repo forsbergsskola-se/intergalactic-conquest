@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Audio/Neon Shadows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/Neon Shadows/Neon Shadows.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/Neon Shadows/Neon Shadows.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/Neon Shadows/Neon Shadows.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/Neon Shadows/Neon Shadows.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface/UI_Alertmessage_Stereo_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface/UI_Alertmessage_Stereo_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface/UI_Clean_Stereo_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface/UI_Clean_Stereo_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface/UI_SelectColonySite_Stereo_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/User Interface/UI_SelectColonySite_Stereo_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MainMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../MainMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingsMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../SettingsMenu.cs.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SoundSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MenuSettings.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SoundSettings.cs" />
+        <option value="$PROJECT_DIR$/AudioController.cs" />
+        <option value="$PROJECT_DIR$/MenuSettings.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kEjpW9ucfd0om2U1z9YunKMr52" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="" />
+      <created>1605272830252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605272830252</updated>
+      <workItem from="1605272832704" duration="10944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="192" width="1092" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605279364068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="372" y="192" width="1092" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605279364068" />
+  </component>
+</project>
