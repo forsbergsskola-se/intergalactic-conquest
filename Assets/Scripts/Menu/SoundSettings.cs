@@ -8,8 +8,8 @@ using UnityEngine.Audio;
 public class Volume
 {
     public string name;
-    public float volume;
-    public float tempVolume;
+    public float volume = 0.4f;
+    public float tempVolume = 0.4f;
 }
 
 public class Settings

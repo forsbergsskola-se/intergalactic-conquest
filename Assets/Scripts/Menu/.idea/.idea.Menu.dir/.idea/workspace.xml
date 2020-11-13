@@ -20,69 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/MainMenuButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/MainMenuButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/Managers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/Managers/Planet Manager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/Managers/Planet Manager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/ResetPlayerPrefsButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/ResetPlayerPrefsButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/TimeKeeper.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Prefabs/TimeKeeper.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdleProduction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdleProduction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ResetProgressButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ResetProgressButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Strategies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Strategies/Strategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Strategies/Strategy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Strategies/SubStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Strategies/SubStrategy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeKeeper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimeKeeper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy Sub-Strategies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy Sub-Strategies/Strongman.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy Sub-Strategies/Strongman.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy Sub-Strategies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy Sub-Strategies/Domestic.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy Sub-Strategies/Domestic.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy Sub-Strategies/Foreign.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy Sub-Strategies/Foreign.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Economy.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military Sub-Strategies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military Sub-Strategies/PeaceMaker.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military Sub-Strategies/PeaceMaker.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military Sub-Strategies/Warmonger.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military Sub-Strategies/Warmonger.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StrategyData/Military.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/ExamplePlanet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/ExamplePlanet.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Earth.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Planet2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Earth.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Planet2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prefabs/Planet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prefabs/Planet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Audio/GeneralVolume.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/../../Audio/GeneralVolume.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Planet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Menu.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Menu.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SettingsMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SettingsMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SettingsMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/SettingsMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Planet/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Planet/Planet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Planet/PlanetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Planet/PlanetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SettingsMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SettingsMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SettingsMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../SettingsMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Staff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StaffData/ExampleStaff.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../StaffData/ExampleStaff.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoundSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoundSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,16 +36,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SoundSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SettingsMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuSettings.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SoundSettings.cs" />
         <option value="$PROJECT_DIR$/AudioController.cs" />
         <option value="$PROJECT_DIR$/MenuSettings.cs" />
+        <option value="$PROJECT_DIR$/SoundSettings.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605272830252</updated>
-      <workItem from="1605272832704" duration="11547000" />
+      <workItem from="1605272832704" duration="12150000" />
     </task>
     <servers />
   </component>
