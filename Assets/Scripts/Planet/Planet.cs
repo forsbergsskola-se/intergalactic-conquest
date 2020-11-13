@@ -2,34 +2,50 @@
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "Planet", menuName = "ScriptableObjects/Planet", order = 1)]
-/*
- * A planet has staff available for hire as well as Economy- Military- and Diplomat upgrades
- */
 public class Planet : ScriptableObject
 {
-    [Tooltip("This planets' staff. Populate Planets by drag and drop")] 
-    public Staff[] staffArray;
+    [Header("Planet Settings")]
+    public ProductionState State = ProductionState.Inactive;
 
-    [Tooltip("This planets' upgrades. Populate Planets by drag and drop")] 
-    public Upgrade[] upgradeArray;
+    [Header(" Planet Staff & Upgrades")]
+    public Staff Staff;
+
+    [Space]
+    public Upgrade[] Upgrades;
 
     [Header("Domination")]
     public int InfluenceGoal;
 
     [Header("Influence")]
-    [HideInInspector]
-    public UnityEvent OnInfluenceChange;
+    [SerializeField]
+    private int influence;
+
+    [Space]
+    public int TotalInfluence;
 
     public int Influence{
 
-        get => PlayerPrefs.GetInt(this.name, 0);
+        get{
+
+            return influence;
+        }
 
         set{
 
-            PlayerPrefs.SetInt(this.name, value);
+            influence = value;
+
+            if(influence >= TotalInfluence){
+
+                TotalInfluence = influence;
+            }
+
             OnInfluenceChange.Invoke();
         }
     }
+
+
+    [HideInInspector]
+    public UnityEvent OnInfluenceChange;
 
     public void IncreaseInfluence(int amount){
 
@@ -40,4 +56,11 @@ public class Planet : ScriptableObject
 
         Influence -= amount;
     }
+}
+
+
+public enum ProductionState
+{
+    Active,
+    Inactive
 }

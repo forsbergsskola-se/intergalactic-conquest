@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34df94cef915188419608d017719a892, type: 3}
   m_Name: ExampleStaff
   m_EditorClassIdentifier: 
+  Name: Linus
+  Title: Best Programmer
+  HomeWorld: {fileID: 11400000, guid: 3af2cd1bbf856e54ba545e9204220ca3, type: 2}
+  Strategy: {fileID: 11400000, guid: b728120170215414db896ab26e0a551c, type: 2}
+  SubStrategy: {fileID: 11400000, guid: ecc846026c616f24287de1e0bf32566a, type: 2}
+  BaseProductionAmount: 5
+  IdleProductionSpeed: 1

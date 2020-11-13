@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="MainMenu.cs" t="Include" />
+          <e p="MainMenuButton.cs" t="Include" />
           <e p="PersistentData.cs" t="Include" />
           <e p="Planet" t="Include">
             <e p="ClickablePlanet.cs" t="Include" />
@@ -13,8 +14,14 @@
             <e p="PlanetManager.cs" t="Include" />
           </e>
           <e p="PlanetUI.cs" t="Include" />
+          <e p="ResetProgressButton.cs" t="Include" />
+          <e p="SettingsMenu.cs" t="Include" />
           <e p="SolarSystem.cs" t="Include" />
           <e p="Staff.cs" t="Include" />
+          <e p="Strategies" t="Include">
+            <e p="Strategy.cs" t="Include" />
+            <e p="SubStrategy.cs" t="Include" />
+          </e>
           <e p="Upgrade.cs" t="Include" />
         </e>
       </e>
