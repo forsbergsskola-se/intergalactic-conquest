@@ -289,6 +289,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1344048203}
     m_Modifications:
+    - target: {fileID: 405381647171792040, guid: a3ef6edcacd3a1843b49b3cf5a10aa76, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 405381647171792040, guid: a3ef6edcacd3a1843b49b3cf5a10aa76, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2534095443698989386, guid: a3ef6edcacd3a1843b49b3cf5a10aa76, type: 3}
       propertyPath: m_Name
       value: Planet
@@ -375,6 +383,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2534095443698989387, guid: a3ef6edcacd3a1843b49b3cf5a10aa76, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832538687113084961, guid: a3ef6edcacd3a1843b49b3cf5a10aa76, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832538687113084961, guid: a3ef6edcacd3a1843b49b3cf5a10aa76, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

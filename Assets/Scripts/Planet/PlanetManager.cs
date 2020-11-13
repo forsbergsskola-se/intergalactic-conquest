@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(IdleProduction))]
 public class PlanetManager : MonoBehaviour
 {
     [Header("Planet")]
@@ -10,8 +11,12 @@ public class PlanetManager : MonoBehaviour
     [Header("Planet UI")]
     public Slider PlanetDominationSlider;
 
+    private IdleProduction IdleProduction => GetComponent<IdleProduction>();
+
     private void Start() {
         
+        CurrentPlanet.State = ProductionState.Active;
+
         if(CurrentPlanet != null){
             
             UpdateDomination();
@@ -21,7 +26,7 @@ public class PlanetManager : MonoBehaviour
     }
 
     public void SetUpDomination(Planet planet){
-
+        
         PlanetDominationSlider.maxValue = planet.InfluenceGoal;
     }
 
