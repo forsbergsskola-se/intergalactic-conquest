@@ -4,6 +4,9 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "Planet", menuName = "ScriptableObjects/Planet", order = 1)]
 public class Planet : ScriptableObject
 {
+    [Header("Planet Data")]
+    public Sprite PlanetSprite;
+
     [Header("Planet Settings")]
     public ProductionState State = ProductionState.Inactive;
 

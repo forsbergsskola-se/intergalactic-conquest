@@ -32,7 +32,7 @@ public class PlanetManager : MonoBehaviour
 
     private void UpdateDomination(){
 
-        PlanetDominationSlider.value = CurrentPlanet.Influence;        
+        PlanetDominationSlider.value = CurrentPlanet.TotalInfluence;        
     }
 
     public void ChangeInfluence(int amount){

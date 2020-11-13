@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Earth
   m_EditorClassIdentifier: 
   State: 0
-  Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
+  Staff: {fileID: 0}
   Upgrades: []
   InfluenceGoal: 500
   influence: 0
