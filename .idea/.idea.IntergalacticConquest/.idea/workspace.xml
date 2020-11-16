@@ -22,7 +22,15 @@
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonAggresive.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonAggresive.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonCommonGrounder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonCommonGrounder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonDomestics.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonDomestics.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonPeacemaker.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonPeacemaker.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonStrongman.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesButtonStrongman.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesForeign.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Buttons/PlanetScreen/IC_PlanetScreen_StrategiesForeign.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UpgradeData/ExampleUpgrade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UpgradeData/ExampleUpgrade.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistentData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet/ClickablePlanet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,10 +60,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpendableInfluence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IdleProduction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Influence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +118,7 @@
       <updated>1605103238529</updated>
       <workItem from="1605103246736" duration="3731000" />
       <workItem from="1605193465660" duration="3095000" />
-      <workItem from="1605516011404" duration="4104000" />
+      <workItem from="1605516011404" duration="10584000" />
     </task>
     <servers />
   </component>
@@ -128,5 +141,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605531271209">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605531271209" />
   </component>
 </project>
