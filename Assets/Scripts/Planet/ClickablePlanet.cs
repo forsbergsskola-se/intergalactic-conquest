@@ -7,6 +7,9 @@ using Image = UnityEngine.UI.Image;
 [RequireComponent(typeof(Image))]
 public class ClickablePlanet : MonoBehaviour, IPointerClickHandler
 {
+    [Header("Planet")]
+    public Planet PlanetData;
+
     [Tooltip("multiplayer to enlarge planet image on click")] 
     public float enlargeMultiplier;
 
@@ -33,6 +36,8 @@ public class ClickablePlanet : MonoBehaviour, IPointerClickHandler
 
     private void ClickEvent()
     {
+        PlanetManager.instance.CurrentPlanet = PlanetData;
+        Debug.Log(PlanetManager.instance.CurrentPlanet);
         this.image.transform.localScale = sizeMultiplier;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

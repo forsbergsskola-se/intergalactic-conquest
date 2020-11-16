@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Timekeeper
   - Audio
+  - PlanetUI
+  - DominationBar
   layers:
   - Default
   - TransparentFX
