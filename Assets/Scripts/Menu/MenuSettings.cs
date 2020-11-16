@@ -7,6 +7,9 @@ using UnityEngine.Audio;
 [RequireComponent (typeof(Slider))]
 public class MenuSettings : MonoBehaviour
 {
+    private Resolution[] resolutions;
+    public Dropdown resolutionDropdown;
+    
     Slider slider
     {
         get { return GetComponent<Slider>(); }
@@ -17,13 +20,45 @@ public class MenuSettings : MonoBehaviour
 
     private void Start()
     {
-        ResetSliderValue(); 
-        
+        resolutions = Screen.resolutions;
+        resolutionDropdown.ClearOptions();
+        List<string> options = new List<string>();
+        int currentResolutionIndex = 0;
+        for (int i = 0; i < resolutions.Length; i++)
+        {
+            string option = resolutions[i].width + "x" + resolutions[i].height;
+            options.Add(option);
+            if (resolutions[i].width == Screen.currentResolution.width &&
+                resolutions[i].height == Screen.currentResolution.height)
+            {
+                currentResolutionIndex = i;
+            }
+        }
+        resolutionDropdown.AddOptions(options);
+        resolutionDropdown.value = currentResolutionIndex;
+        resolutionDropdown.RefreshShownValue();
+        ResetSliderValue();
         slider.onValueChanged.AddListener(delegate
         {
             UpdateValueOnChange(slider.value);
         });
     }
+
+    public void SetResolution(int resolutionIndex)
+    {
+        Resolution resolution = resolutions[resolutionIndex];
+        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    }
+    public void SetQuality(int qualityIndex)
+    {
+        QualitySettings.SetQualityLevel(qualityIndex);
+    }
+
+    public void SetFullscreen(bool isFullscreen)
+    {
+        Screen.fullScreen = isFullscreen;
+    }
+    
     public void UpdateValueOnChange(float value)
     {
         if (volumeLabel != null)
