@@ -6,7 +6,7 @@ public class Planet : ScriptableObject
 {
     [Header("Planet Data")]
     public Sprite PlanetSprite;
-
+    
     [Header("Planet Settings")]
     public ProductionState State = ProductionState.Inactive;
 

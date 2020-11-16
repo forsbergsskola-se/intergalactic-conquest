@@ -5,26 +5,53 @@ using UnityEngine.Events;
 [RequireComponent(typeof(IdleProduction))]
 public class PlanetManager : MonoBehaviour
 {
-    [Header("Planet")]
-    public Planet CurrentPlanet;
+    public Planet CurrentPlanet{
+
+        get{ return currentPlanet;}
+
+        set{
+
+            currentPlanet = value;
+            OnPlanetChange.Invoke();
+        }
+    }
+
+    private Planet currentPlanet;
 
     [Header("Planet UI")]
+    public Image PlanetUIImage;
+
+    [Space]
     public Slider PlanetDominationSlider;
 
     private IdleProduction IdleProduction => GetComponent<IdleProduction>();
 
+    [HideInInspector]
+    public UnityEvent OnPlanetChange;
+
     private void Start() {
         
-        CurrentPlanet.State = ProductionState.Active;
-
         if(CurrentPlanet != null){
-            
+
+            CurrentPlanet.State = ProductionState.Active;    
             UpdateDomination();
             SetUpDomination(CurrentPlanet);
             CurrentPlanet.OnInfluenceChange.AddListener(UpdateDomination);
+        }else{
+
+            Debug.LogError("No Planet Found!");
         }
     }
 
+    private void OnEnable() {
+
+        OnPlanetChange.AddListener(SetPlanetSprite);    
+    }
+
+    private void OnDisable() {
+        
+        OnPlanetChange.RemoveListener(SetPlanetSprite);
+    }
     public void SetUpDomination(Planet planet){
         
         PlanetDominationSlider.maxValue = planet.InfluenceGoal;
@@ -38,5 +65,10 @@ public class PlanetManager : MonoBehaviour
     public void ChangeInfluence(int amount){
 
         CurrentPlanet.IncreaseInfluence(amount);
+    }
+
+    public void SetPlanetSprite(){
+
+        PlanetUIImage.sprite = CurrentPlanet.PlanetSprite;
     }
 }

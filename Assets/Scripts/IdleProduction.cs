@@ -9,7 +9,6 @@ public class IdleProduction : MonoBehaviour
     [Header("Planet")]
     public Planet[] Planets;
 
-    [SerializeField]    
     private float elapsedTime;
 
     private void Update() {
