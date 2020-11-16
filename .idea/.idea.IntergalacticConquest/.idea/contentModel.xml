@@ -5,8 +5,14 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="MainMenu.cs" t="Include" />
-          <e p="MainMenuButton.cs" t="Include" />
+          <e p="IdleProduction.cs" t="Include" />
+          <e p="Menu" t="Include">
+            <e p="AudioController.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="MainMenuButton.cs" t="Include" />
+            <e p="MenuSettings.cs" t="Include" />
+            <e p="SoundSettings.cs" t="Include" />
+          </e>
           <e p="PersistentData.cs" t="Include" />
           <e p="Planet" t="Include">
             <e p="ClickablePlanet.cs" t="Include" />
@@ -15,13 +21,14 @@
           </e>
           <e p="PlanetUI.cs" t="Include" />
           <e p="ResetProgressButton.cs" t="Include" />
-          <e p="SettingsMenu.cs" t="Include" />
           <e p="SolarSystem.cs" t="Include" />
           <e p="Staff.cs" t="Include" />
           <e p="Strategies" t="Include">
             <e p="Strategy.cs" t="Include" />
+            <e p="StrategyType.cs" t="Include" />
             <e p="SubStrategy.cs" t="Include" />
           </e>
+          <e p="TimeKeeper.cs" t="Include" />
           <e p="Upgrade.cs" t="Include" />
         </e>
       </e>

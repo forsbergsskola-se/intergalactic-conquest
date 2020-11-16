@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="" />
+    <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +37,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet/ClickablePlanet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Staff.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistentData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
@@ -49,6 +51,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +105,7 @@
       <updated>1605103238529</updated>
       <workItem from="1605103246736" duration="3731000" />
       <workItem from="1605193465660" duration="3095000" />
+      <workItem from="1605516011404" duration="4104000" />
     </task>
     <servers />
   </component>
