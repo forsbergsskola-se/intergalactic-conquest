@@ -6,6 +6,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="IdleProduction.cs" t="Include" />
+          <e p="Influence" t="Include">
+            <e p="InfluenceProduction.cs" t="Include" />
+          </e>
           <e p="Influence.cs" t="Include" />
           <e p="InfluenceTextUI.cs" t="Include" />
           <e p="Menu" t="Include">
@@ -13,6 +16,7 @@
             <e p="MainMenu.cs" t="Include" />
             <e p="MainMenuButton.cs" t="Include" />
             <e p="MenuSettings.cs" t="Include" />
+            <e p="ResolutionSettings.cs" t="Include" />
             <e p="SoundSettings.cs" t="Include" />
           </e>
           <e p="PersistentData.cs" t="Include" />
@@ -20,8 +24,9 @@
             <e p="ClickablePlanet.cs" t="Include" />
             <e p="Planet.cs" t="Include" />
             <e p="PlanetManager.cs" t="Include" />
+            <e p="PlanetUI.cs" t="Include" />
           </e>
-          <e p="PlanetUI.cs" t="Include" />
+          <e p="PlanetMenuUI.cs" t="Include" />
           <e p="ResetProgressButton.cs" t="Include" />
           <e p="SolarSystem.cs" t="Include" />
           <e p="Staff.cs" t="Include" />
