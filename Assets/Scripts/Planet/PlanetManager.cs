@@ -19,11 +19,13 @@ public class PlanetManager : MonoBehaviour
         }
     }
 
-    [SerializeField]
     private Planet currentPlanet;
+
+    public int InfluenceAmountPerClick = 5;
 
     [Header("Planet UI")]
     public Image PlanetUIImage;
+    public Button PlanetButton;
 
     [Space]
     public Slider PlanetDominationSlider;
@@ -47,13 +49,16 @@ public class PlanetManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
+    
+    scene
 
     private void Update() {
         
         if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Planet")){
             
             OnPlanet = true;
-        }else{
+        }
+        else{
 
             OnPlanet = false;
         }
@@ -62,25 +67,26 @@ public class PlanetManager : MonoBehaviour
 
             PlanetUIImage = GameObject.FindGameObjectWithTag("PlanetUI").GetComponent<Image>();
             PlanetDominationSlider = GameObject.FindGameObjectWithTag("DominationBar").GetComponent<Slider>();
+            PlanetButton = GameObject.FindGameObjectWithTag("PlanetUI").GetComponent<Button>();
+
+            SetUpDomination(CurrentPlanet);
         }
 
         if(CurrentPlanet != null){
 
             CurrentPlanet.State = ProductionState.Active;    
-
-            SetUpDomination(CurrentPlanet);
             UpdateDomination();
         }else{
 
-            Debug.LogError("No Planet Found!");
+            Debug.LogWarning("No Planet Found!");
         }
     }
 
     private void OnValidate() {
 
-        OnPlanetChange.AddListener(SetPlanetSprite);    
+        OnPlanetChange.AddListener(SetPlanetSprite);
     }
-
+    
     private void OnDisable() {
         
         OnPlanetChange.RemoveListener(SetPlanetSprite);
@@ -98,9 +104,9 @@ public class PlanetManager : MonoBehaviour
         }
     }
 
-    public void ChangeInfluence(int amount){
+    public void ProduceInfluence(){
 
-        CurrentPlanet.IncreaseInfluence(amount);
+        CurrentPlanet.IncreaseInfluence(InfluenceAmountPerClick);
     }
 
     public void SetPlanetSprite(){
