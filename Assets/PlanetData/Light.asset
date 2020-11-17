@@ -16,7 +16,7 @@ MonoBehaviour:
   State: 1
   Staff: {fileID: 0}
   Upgrades: []
-  InfluenceGoal: 0
+  InfluenceGoal: 5000
   influence: 0
   TotalInfluence: 0
   OnInfluenceChange:

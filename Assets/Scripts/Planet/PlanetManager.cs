@@ -72,6 +72,7 @@ public class PlanetManager : MonoBehaviour
             planetUI.UpdateUI(CurrentPlanet);
             SetupUI(CurrentPlanet);
             planetUI.UpdateDomination(CurrentPlanet);
+            planetUI.UpdateInfluenceText(CurrentPlanet);
 
             CurrentPlanet.State = ProductionState.Active;
         }

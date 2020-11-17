@@ -8,6 +8,7 @@ TagManager:
   - Audio
   - PlanetUI
   - DominationBar
+  - InfluenceUI
   layers:
   - Default
   - TransparentFX

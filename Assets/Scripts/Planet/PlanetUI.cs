@@ -2,11 +2,16 @@
 using UnityEngine.UI;
 
 public class PlanetUI : MonoBehaviour
-{
+{   
+    [Header("Influence")]
+    public Text InfluenceAmount;
+    
+
+    [Header("Planet")]
     public Image PlanetUIImage;
     public Button PlanetButton;
 
-    [Space]
+    [Header("Domination")]
     public Slider PlanetDominationSlider;
 
     public void UpdateUI(Planet planet){
@@ -14,6 +19,7 @@ public class PlanetUI : MonoBehaviour
         PlanetButton = GameObject.FindWithTag("PlanetUI").GetComponent<Button>();
         PlanetUIImage = GameObject.FindWithTag("PlanetUI").GetComponent<Image>();
         PlanetDominationSlider = GameObject.FindWithTag("DominationBar").GetComponent<Slider>();
+        InfluenceAmount = GameObject.FindWithTag("InfluenceUI").GetComponent<Text>();
     }
 
     public void SetUpDomination(Planet planet){
@@ -24,6 +30,11 @@ public class PlanetUI : MonoBehaviour
     public void UpdateDomination(Planet planet){
 
         PlanetDominationSlider.value = planet.TotalInfluence;        
+    }
+
+    public void UpdateInfluenceText(Planet planet){
+
+        InfluenceAmount.text = "" + planet.Influence;
     }
 
     public void SetPlanetSprite(Planet planet){
