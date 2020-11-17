@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6220499193203982496}
   - component: {fileID: 6220499193203982497}
   m_Layer: 5
-  m_Name: MainMenuButtonText
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: 
 --- !u!1 &6220499194199714879
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6220499194199714816}
   - component: {fileID: 6220499194199714817}
   m_Layer: 5
-  m_Name: MainMenuButton
+  m_Name: SettingsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

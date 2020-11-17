@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Prefabs/MainMenuButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prefabs/MainMenuButton.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_PowerButton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_PowerButton.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainMenuButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainMenuButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_MenuConnection.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_MenuConnection.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_PlanetScreen_IconUniverse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_PlanetScreen_IconUniverse.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +38,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MainMenuButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SoundSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Upgrade.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResolutionSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/2020.1.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
@@ -48,6 +53,8 @@
         <option value="$PROJECT_DIR$/SoundSettings.cs" />
         <option value="$PROJECT_DIR$/ResolutionSettings.cs" />
         <option value="$PROJECT_DIR$/MenuSettings.cs" />
+        <option value="$PROJECT_DIR$/MainMenuButton.cs" />
+        <option value="$PROJECT_DIR$/SolarSystemButton.cs" />
       </list>
     </option>
   </component>
