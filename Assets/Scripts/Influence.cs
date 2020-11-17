@@ -11,7 +11,7 @@ public class Influence : ScriptableObject
     
     public float CurrentInfluence
     {
-        get => PlayerPrefs.GetFloat(saveName, 1000f);
+        get => PlayerPrefs.GetFloat(saveName, 10000f);
         set => PlayerPrefs.SetFloat(saveName, value);
     }
 }

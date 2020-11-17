@@ -6,4 +6,7 @@
     MilitaryPeacemaker,
     DiplomatStrongman,
     DiplomatCommongrounder,
+    Military,
+    Diplomacy,
+    Economics
 }

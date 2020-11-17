@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a50b8ac44dcb2d64bb7ecf2e1298d384, type: 3}
   m_Name: Foreign
   m_EditorClassIdentifier: 
+  SaveName: strategy_foreign
+  cost: 100

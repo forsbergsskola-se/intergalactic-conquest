@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "Staff", menuName = "ScriptableObjects/Staff", order = 3)]
 public class Staff : ScriptableObject
@@ -12,8 +13,8 @@ public class Staff : ScriptableObject
     [Space]
     public Planet HomeWorld;
 
-    [Header("Strategy Specialization")]
-    public Strategy Strategy;
+    [FormerlySerializedAs("Strategy")] [Header("Strategy Specialization")]
+    public StrategyBranch strategyBranch;
 
     [Space]
     public SubStrategy SubStrategy;

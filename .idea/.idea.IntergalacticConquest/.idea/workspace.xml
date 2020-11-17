@@ -20,10 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UpgradePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UpgradePanel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Influence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Influence.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Staff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Staff.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/Strongman.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/Strongman.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Domestic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Domestic.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Foreign.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Foreign.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/PeaceMaker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/PeaceMaker.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/Warmonger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/Warmonger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UpgradeData/ExampleUpgrade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UpgradeData/ExampleUpgrade.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +51,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistentData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet/ClickablePlanet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Strategies/IStrategy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,14 +74,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyTypes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpendableInfluence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IdleProduction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Influence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/IStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Influence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
       </list>
     </option>
   </component>
@@ -71,9 +96,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.50057536" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,20 +110,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19736">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="19736" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19736">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="19736" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -114,7 +142,8 @@
       <workItem from="1605193465660" duration="3095000" />
       <workItem from="1605516011404" duration="10584000" />
       <workItem from="1605534400707" duration="27000" />
-      <workItem from="1605605758711" duration="1814000" />
+      <workItem from="1605605758711" duration="1948000" />
+      <workItem from="1605624373230" duration="16967000" />
     </task>
     <servers />
   </component>
@@ -139,9 +168,85 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605531271209">
+    <state width="2517" height="519" key="GridCell.Tab.0.bottom" timestamp="1605645455693">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605531271209" />
+    <state width="2517" height="519" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.0.center" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.0.left" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.0.right" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.1.bottom" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.1.center" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.1.left" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.1.right" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.2.bottom" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.2.center" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.2.left" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.2.right" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.3.bottom" timestamp="1605645455694">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455694" />
+    <state width="2517" height="519" key="GridCell.Tab.3.center" timestamp="1605645455694">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455694" />
+    <state width="2517" height="519" key="GridCell.Tab.3.left" timestamp="1605645455693">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455693" />
+    <state width="2517" height="519" key="GridCell.Tab.3.right" timestamp="1605645455694">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605645455694" />
+    <state x="1156" y="361" key="RiderGenerateDialog" timestamp="1605632194834">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1156" y="361" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605632194834" />
+    <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog" timestamp="1605633014445">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605633014445" />
+    <state x="1540" y="328" key="run.anything.popup" timestamp="1605631832315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1540" y="328" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605631832315" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605643787243">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605643787243" />
   </component>
 </project>
