@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlanetUI : MonoBehaviour
+public class PlanetMenuUI : MonoBehaviour
 {
-    
     public GameObject StaffMenu;
     public GameObject UpgradeMenu;
     

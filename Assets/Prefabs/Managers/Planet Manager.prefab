@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 319290794967186618}
   - component: {fileID: 319290794967186617}
+  - component: {fileID: 722825126495030029}
+  - component: {fileID: 2907862233260980984}
   - component: {fileID: 8296420704356105815}
   m_Layer: 0
   m_Name: Planet Manager
@@ -44,7 +46,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb284d08ea9a82844a12534f0a42aadf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentPlanet: {fileID: 11400000, guid: 3af2cd1bbf856e54ba545e9204220ca3, type: 2}
+  currentPlanet: {fileID: 0}
+  OnPlanetChange:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &722825126495030029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319290794967186616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deed906938b6cc54787c00bdbdb53c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2907862233260980984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319290794967186616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adefe7f4bb41b90458ace8d5c530e222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlanetUIImage: {fileID: 0}
+  PlanetButton: {fileID: 0}
   PlanetDominationSlider: {fileID: 0}
 --- !u!114 &8296420704356105815
 MonoBehaviour:
@@ -58,5 +89,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10b200724f46d6740bb7bbfb3ec53c55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ProductionType: 1
   Planets:
   - {fileID: 11400000, guid: 3af2cd1bbf856e54ba545e9204220ca3, type: 2}

@@ -37,7 +37,6 @@ public class ClickablePlanet : MonoBehaviour, IPointerClickHandler
     private void ClickEvent()
     {
         PlanetManager.instance.CurrentPlanet = PlanetData;
-        Debug.Log(PlanetManager.instance.CurrentPlanet);
         this.image.transform.localScale = sizeMultiplier;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

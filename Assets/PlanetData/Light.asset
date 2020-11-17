@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 708fd660936623043961e48b0e2c43c7, type: 3}
-  m_Name: Fire
+  m_Name: Light
   m_EditorClassIdentifier: 
-  PlanetSprite: {fileID: 21300000, guid: 79ccc73e7eb2365459647f3cc364eb6e, type: 3}
-  State: 0
+  PlanetSprite: {fileID: 21300000, guid: 85401023ebfc3f048ba5ac91cf43a799, type: 3}
+  State: 1
   Staff: {fileID: 0}
   Upgrades: []
-  InfluenceGoal: 1000
+  InfluenceGoal: 0
   influence: 0
   TotalInfluence: 0
   OnInfluenceChange:

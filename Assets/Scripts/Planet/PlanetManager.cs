@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +7,10 @@ public class PlanetManager : MonoBehaviour
 {
     public static PlanetManager instance = null;
 
+    [Header("Current Planet Scriptable Object")]
+    [SerializeField]
+    private Planet currentPlanet;
+
     public Planet CurrentPlanet{
 
         get{ return currentPlanet;}
@@ -15,105 +18,80 @@ public class PlanetManager : MonoBehaviour
         set{
 
             currentPlanet = value;
-            OnPlanetChange.Invoke();
+            OnPlanetChange.Invoke(CurrentPlanet);
+        }
+    }
+    
+    [HideInInspector]
+    public UnityEvent<Planet> OnPlanetChange;
+
+    private IdleProduction idleProduction => GetComponent<IdleProduction>();
+    private InfluenceProduction influenceProduction => GetComponent<InfluenceProduction>();
+    private PlanetUI planetUI => GetComponent<PlanetUI>();
+
+    public bool CanProduce = true;
+
+    public bool OnPlanet(){
+
+        if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Planet")){
+
+            return true;
+        }else{
+
+            return false;
         }
     }
 
-    private Planet currentPlanet;
-
-    public int InfluenceAmountPerClick = 5;
-
-    [Header("Planet UI")]
-    public Image PlanetUIImage;
-    public Button PlanetButton;
-
-    [Space]
-    public Slider PlanetDominationSlider;
-
-    private IdleProduction IdleProduction => GetComponent<IdleProduction>();
-
-    [HideInInspector]
-    public UnityEvent OnPlanetChange;
-
-    private bool OnPlanet = false;
-
-    private void Start() {
-
+    private void Awake() {
+        
         if(instance == null){
 
             instance = this;
         }else if(instance != null){
 
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
 
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(this.gameObject);
+
+        if(!OnPlanet()){
+
+            CanProduce = true;
+        }
     }
-    
-    scene
 
     private void Update() {
         
-        if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Planet")){
-            
-            OnPlanet = true;
-        }
-        else{
+        if(!OnPlanet()){
 
-            OnPlanet = false;
+            CanProduce = true;
         }
 
-        if(OnPlanet){
+        if(CurrentPlanet != null && OnPlanet()){
 
-            PlanetUIImage = GameObject.FindGameObjectWithTag("PlanetUI").GetComponent<Image>();
-            PlanetDominationSlider = GameObject.FindGameObjectWithTag("DominationBar").GetComponent<Slider>();
-            PlanetButton = GameObject.FindGameObjectWithTag("PlanetUI").GetComponent<Button>();
+            planetUI.UpdateUI(CurrentPlanet);
+            SetupUI(CurrentPlanet);
+            planetUI.UpdateDomination(CurrentPlanet);
 
-            SetUpDomination(CurrentPlanet);
+            CurrentPlanet.State = ProductionState.Active;
         }
 
-        if(CurrentPlanet != null){
+        if(CanProduce && OnPlanet()){
 
-            CurrentPlanet.State = ProductionState.Active;    
-            UpdateDomination();
-        }else{
-
-            Debug.LogWarning("No Planet Found!");
+            planetUI.PlanetButton.onClick.AddListener(ProduceInfuence);
+            CanProduce = false;
         }
     }
 
-    private void OnValidate() {
+    private void ProduceInfuence(){
 
-        OnPlanetChange.AddListener(SetPlanetSprite);
-    }
-    
-    private void OnDisable() {
-        
-        OnPlanetChange.RemoveListener(SetPlanetSprite);
-    }
-    public void SetUpDomination(Planet planet){
-        
-        PlanetDominationSlider.maxValue = planet.InfluenceGoal;
+        influenceProduction.ProduceInfluence(CurrentPlanet);
+        Debug.Log(CurrentPlanet.Influence);
     }
 
-    private void UpdateDomination(){
+    private void SetupUI(Planet planet){
 
-        if(OnPlanet){
-
-            PlanetDominationSlider.value = CurrentPlanet.TotalInfluence;        
-        }
-    }
-
-    public void ProduceInfluence(){
-
-        CurrentPlanet.IncreaseInfluence(InfluenceAmountPerClick);
-    }
-
-    public void SetPlanetSprite(){
-
-        if(OnPlanet){
-
-            PlanetUIImage.sprite = CurrentPlanet.PlanetSprite;
-        }
+        planetUI.SetPlanetSprite(planet);
+        planetUI.SetUpDomination(planet);
     }
 }
