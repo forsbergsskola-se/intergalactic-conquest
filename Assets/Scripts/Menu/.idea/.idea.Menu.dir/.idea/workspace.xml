@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="" />
+    <list default="true" id="26dad7cb-cd4c-4598-af38-b56a7d54c23b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menu.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_PowerButton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprites/UI/Icons/IC_PowerButton.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,13 +38,16 @@
     <setting file="file://$PROJECT_DIR$/SoundSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ResolutionSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/2020.1.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AudioController.cs" />
-        <option value="$PROJECT_DIR$/MenuSettings.cs" />
         <option value="$PROJECT_DIR$/SoundSettings.cs" />
+        <option value="$PROJECT_DIR$/ResolutionSettings.cs" />
+        <option value="$PROJECT_DIR$/MenuSettings.cs" />
       </list>
     </option>
   </component>
@@ -62,13 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1605272830252</updated>
       <workItem from="1605272832704" duration="12759000" />
+      <workItem from="1605611918764" duration="4794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -80,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
