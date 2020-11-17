@@ -29,7 +29,7 @@ public class PlanetManager : MonoBehaviour
     private InfluenceProduction influenceProduction => GetComponent<InfluenceProduction>();
     private PlanetUI planetUI => GetComponent<PlanetUI>();
 
-    public bool CanProduce = true;
+    private bool CanProduce = true;
 
     public bool OnPlanet(){
 
@@ -68,13 +68,17 @@ public class PlanetManager : MonoBehaviour
         }
 
         if(CurrentPlanet != null && OnPlanet()){
-
+            
             planetUI.UpdateUI(CurrentPlanet);
             SetupUI(CurrentPlanet);
             planetUI.UpdateDomination(CurrentPlanet);
             planetUI.UpdateInfluenceText(CurrentPlanet);
 
             CurrentPlanet.State = ProductionState.Active;
+        }
+        else if (!OnPlanet() && CurrentPlanet != null){
+
+            CurrentPlanet.State = ProductionState.Inactive;
         }
 
         if(CanProduce && OnPlanet()){

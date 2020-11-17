@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Earth
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: ab27459afb8a85a44913c4c10f6a4f51, type: 3}
-  State: 0
-  Staff: {fileID: 0}
+  State: 1
+  Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
   Upgrades: []
   InfluenceGoal: 500
   influence: 0

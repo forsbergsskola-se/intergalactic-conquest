@@ -2,10 +2,6 @@
 
 public class IdleProduction : MonoBehaviour
 {
-    [Header("Idle Production Settings")]
-    [SerializeField]
-    private IdelType ProductionType = IdelType.Planet;
-
     [Header("Planet")]
     public Planet[] Planets;
 
@@ -13,19 +9,17 @@ public class IdleProduction : MonoBehaviour
 
     private void Update() {
         
-        if(ProductionType == IdelType.Planet && Planets.Length > 1){
-
-            Debug.LogError($"Your production type is set to {ProductionType} but you have more than one planet. {Planets}");
-        }
-
         Idle();
     }
 
     private void Idle(){
 
-        if(ProductionType == IdelType.Planet){
-
-            PlanetProduction(Planets[0]);
+        for (int i = 0; i < Planets.Length; i++)
+        {
+            if(Planets[i].Staff != null ){
+                
+            PlanetProduction(Planets[i]);
+            }
         }
     }
 
@@ -44,9 +38,25 @@ public class IdleProduction : MonoBehaviour
     }
 
     private void InfluenceProduction(Planet planet, Staff staff){
+        
+
 
         planet.IncreaseInfluence(staff.InfluencePerTick);
         Debug.Log($"{staff} has produced {staff.InfluencePerTick} influence");
+    }
+
+    private int IdleProductionAmount(Planet planet, Staff staff){
+        
+        if(planet.State == ProductionState.Active){
+
+            return staff.BaseProductionAmount;
+        }
+        else if(planet.State == ProductionState.Inactive){
+
+            return Mathf.RoundToInt(staff.BaseProductionAmount * 0.25f);
+        }
+
+        return 0;
     }
 
     private void UpdateTime(){

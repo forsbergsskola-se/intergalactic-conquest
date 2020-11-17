@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed906938b6cc54787c00bdbdb53c45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BaseInfluenceProduction: 5
 --- !u!114 &2907862233260980984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adefe7f4bb41b90458ace8d5c530e222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InfluenceAmount: {fileID: 0}
   PlanetUIImage: {fileID: 0}
   PlanetButton: {fileID: 0}
   PlanetDominationSlider: {fileID: 0}
@@ -92,3 +94,6 @@ MonoBehaviour:
   ProductionType: 1
   Planets:
   - {fileID: 11400000, guid: 3af2cd1bbf856e54ba545e9204220ca3, type: 2}
+  - {fileID: 11400000, guid: 0661fabfc858f394885ce80813599996, type: 2}
+  - {fileID: 11400000, guid: d734014c326341541a37e62aeb182fa4, type: 2}
+  - {fileID: 11400000, guid: 423cf639d91a24b4ba3288daff8a954e, type: 2}

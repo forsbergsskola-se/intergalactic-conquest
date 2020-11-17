@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Water
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 2149eb3408b3b364181b1721e8422949, type: 3}
-  State: 0
+  State: 1
   Staff: {fileID: 0}
   Upgrades: []
   InfluenceGoal: 1500
