@@ -13,6 +13,7 @@ public class UpgradePanelUI : MonoBehaviour
     [Header("UIReferences")] 
     public Text LvlText;
     public Button BuyButton;
+    public Image LockImage;
     public Text ReqLvlText;
     public Text ReqCostText;
     
@@ -37,7 +38,7 @@ public class UpgradePanelUI : MonoBehaviour
 
     private void Update()
     {
-        UpdateBuyButton();
+        UpdateButtonVisibility();
     }
 
     public void TryToBuy()
@@ -47,7 +48,7 @@ public class UpgradePanelUI : MonoBehaviour
         {
             UpdateLevelText();
             UpdateRequirementText();
-            UpdateBuyButton();
+            UpdateButtonVisibility();
         }
     }
 
@@ -62,8 +63,10 @@ public class UpgradePanelUI : MonoBehaviour
         this.LvlText.text = this.upgrade.GetLevel(currentPlanet.PlanetName).ToString();
     }
 
-    private void UpdateBuyButton()
+    private void UpdateButtonVisibility()
     {
-        this.BuyButton.gameObject.SetActive(upgrade.CanBuy(currentPlanet));
+        bool canBuy = upgrade.CanBuy(currentPlanet);
+        this.BuyButton.gameObject.SetActive(canBuy);
+        this.LockImage.gameObject.SetActive(!canBuy);
     }
 }
