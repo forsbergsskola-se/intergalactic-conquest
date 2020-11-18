@@ -7,11 +7,18 @@ public class StrategyBranch : ScriptableObject, IStrategy
     private float cost = 100.0f; //TODO hardcoded for now.
     [Header("Sub-Strategies")]
     [SerializeField] private SubStrategy[] SubStrategies;
-
-    public int Level => GetStrategyLevel();
+    
     public float Cost => this.cost;
+    
+    /* TODO
+    public float GetCost(PlanetName planetName)
+    {
+        
+        return 
+    }
+    */
 
-    private int GetStrategyLevel()
+    public int GetLevel(PlanetName planetName)
     {
         if (SubStrategies.Length <= 0)
             return 0;
@@ -19,7 +26,7 @@ public class StrategyBranch : ScriptableObject, IStrategy
         int lvlCount = 0;
         foreach (var strategy in SubStrategies)
         {
-            lvlCount += strategy.Level;
+            lvlCount += strategy.GetLevel(planetName);
         }
         
         return Mathf.FloorToInt((float) lvlCount / (float) SubStrategies.Length);

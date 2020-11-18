@@ -15,6 +15,16 @@ public class UpgradePanelUI : MonoBehaviour
     public Button BuyButton;
     public Text ReqLvlText;
     public Text ReqCostText;
+    
+    // variabels
+    private Planet currentPlanet;
+
+    private void Awake()
+    {
+        this.currentPlanet = PlanetManager.instance.CurrentPlanet;
+        if (currentPlanet == null)
+            Debug.LogWarning("Planet not found", this);
+    }
 
     private void Start()
     {
@@ -33,7 +43,7 @@ public class UpgradePanelUI : MonoBehaviour
     public void TryToBuy()
     {
         // attempt to buy the upgrade, return true if successful
-        if (this.upgrade.PurchaseUpgrade())
+        if (this.upgrade.PurchaseUpgrade(currentPlanet))
         {
             UpdateLevelText();
             UpdateRequirementText();
@@ -43,17 +53,17 @@ public class UpgradePanelUI : MonoBehaviour
 
     private void UpdateRequirementText()
     {
-        this.ReqLvlText.text = this.upgrade.CurrentLevelRequirement.ToString();
-        this.ReqCostText.text = Mathf.RoundToInt(this.upgrade.CurrentCost).ToString();
+        this.ReqLvlText.text = this.upgrade.GetCurrentLevelRequirement(currentPlanet.PlanetName).ToString();
+        this.ReqCostText.text = Mathf.RoundToInt(this.upgrade.GetCurrentCost(currentPlanet.PlanetName)).ToString();
     }
 
     private void UpdateLevelText()
     {
-        this.LvlText.text = this.upgrade.Level.ToString();
+        this.LvlText.text = this.upgrade.GetLevel(currentPlanet.PlanetName).ToString();
     }
 
     private void UpdateBuyButton()
     {
-        this.BuyButton.gameObject.SetActive(upgrade.CanBuy);
+        this.BuyButton.gameObject.SetActive(upgrade.CanBuy(currentPlanet));
     }
 }

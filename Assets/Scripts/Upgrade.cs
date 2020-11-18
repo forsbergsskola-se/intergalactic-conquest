@@ -28,11 +28,21 @@ public class Upgrade : ScriptableObject
     [Tooltip("Name used to save the state internally in PlayerPrefs")] [SerializeField]
     private string SaveName = "OverrideMe";
 
-    private Planet planet = null;
-    public int Level
+    public int GetLevel(PlanetName planetName)
     {
-        get => PlayerPrefs.GetInt(SaveName, 0);
-        private set => PlayerPrefs.SetInt(SaveName, value);
+        string saveName = Enum.GetName(typeof(PlanetName), planetName) + SaveName;
+        return PlayerPrefs.GetInt(saveName, 0);
+    }
+    
+    public void SetLevel(PlanetName planetName, int val) {
+        string saveName = Enum.GetName(typeof(PlanetName), planetName) + SaveName;
+        PlayerPrefs.SetInt(saveName, val);
+    }
+
+    public void IncrementLevel(PlanetName planetName)
+    {
+        int currentLevel = GetLevel(planetName);
+        SetLevel(planetName, currentLevel+1);
     }
     
     private void Awake()
@@ -43,59 +53,56 @@ public class Upgrade : ScriptableObject
         
     }
 
-    public bool CanBuy
+    public bool CanBuy(Planet planet)
     {
-        get
-        {
-            if (reqStrategyRef == null)
-                reqStrategyRef = reqStrategy as IStrategy;
-            
-            // can afford AND current level is at least the required level. 
-            return CurrentCost <= RetrieveInfluence() &&
-                   reqStrategyRef.Level >= CurrentLevelRequirement;
-        }
-    }
-    public float CurrentCost => costCoefficient * Mathf.Pow(costBase, Level);
+        PlanetName planetName = planet.PlanetName;
+        
+        if (reqStrategyRef == null)
+            reqStrategyRef = reqStrategy as IStrategy;
 
-    public int CurrentLevelRequirement
-    {
-        get
-        {
-            if (Level == 0)
-                return 10;
-            else
-            {
-                return Level * 50;
-            }
-        }
+        return GetCurrentCost(planetName) <= RetrieveInfluence(planet) && 
+               reqStrategyRef.GetLevel(planetName) >= GetCurrentLevelRequirement(planetName);
     }
 
-    public bool PurchaseUpgrade()
+    public float GetCurrentCost(PlanetName planetName)
     {
+        return costCoefficient * Mathf.Pow(costBase, GetLevel(planetName));
+    }
+
+    public int GetCurrentLevelRequirement(PlanetName planetName)
+    {
+        int level = GetLevel(planetName);
+        if (level == 0)
+        {
+            return 10;
+        }
+        else
+        {
+            return level * 50;
+        }
+    }
+
+    public bool PurchaseUpgrade(Planet planet)
+    {
+        PlanetName planetName = planet.PlanetName;
+        
         // Requirements not met
-        if (!CanBuy)
+        if (!CanBuy(planet))
             return false;
         
-        // Make transaction
-        this.planet.DecreaseInfluence(CurrentCost);
-        this.Level += 1;
-        Debug.Log("current influence : " + planet.SpendableInfluence); //TODO remove log!
+        //Make transaction
+        planet.DecreaseInfluence(GetCurrentCost(planetName));
+        IncrementLevel(planetName);
         return true;
     }
 
-    private float RetrieveInfluence()
+    private float RetrieveInfluence(Planet planet)
     {
-        if (planet == null)
-            planet = PlanetManager.instance.CurrentPlanet;
-
         return planet.SpendableInfluence;
     }
 
-    private void SpendInfluence(float amount)
+    private void SpendInfluence(Planet planet, float amount)
     {
-        if (planet == null)
-            planet = PlanetManager.instance.CurrentPlanet;
-
         planet.DecreaseInfluence(amount);
     }
     

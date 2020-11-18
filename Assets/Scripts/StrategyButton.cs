@@ -19,6 +19,15 @@ public class StrategyButton : MonoBehaviour
         TryToBuyUpgrade();
     }
 
+    private void Awake()
+    {
+        planet = PlanetManager.instance.CurrentPlanet;
+        if (planet == null)
+        {
+            Debug.LogWarning("Planet not found", this);
+        }
+    }
+
     public void Start()
     {
         if (this.Strategy == null)
@@ -40,7 +49,7 @@ public class StrategyButton : MonoBehaviour
         
         //make transaction
         this.planet.DecreaseInfluence(cost);
-        this.Strategy.Level += 1;
+        this.Strategy.IncrementLevel(planet.PlanetName);
         UpdateText();
     }
     
@@ -58,7 +67,7 @@ public class StrategyButton : MonoBehaviour
     
     private void UpdateText()
     {
-        SetText(Strategy.Level.ToString());
+        SetText(Strategy.GetLevel(planet.PlanetName).ToString());
     }
 
     private void SetText(String s)

@@ -24,7 +24,6 @@ public class Planet : ScriptableObject
 
     // Derived variables
     private string spendableInfluenceSaveName;
-    public string SpendableInfluenceSaveName => spendableInfluenceSaveName;
 
     private string totalInfluenceSaveName;
     

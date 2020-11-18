@@ -7,12 +7,25 @@ public class SubStrategy : ScriptableObject, IStrategy
     private string SaveName = "REPLACE_ME"; //TODO make something safer
     [SerializeField][Tooltip("Cost")]
     private float cost = 100; //TODO hardcoded for now.
-
-    public int Level
+    
+    public int GetLevel(PlanetName planetName)
     {
-        get => PlayerPrefs.GetInt(SaveName, 0);
-        set => PlayerPrefs.SetInt(SaveName, value);
+        string saveName = planetName + SaveName;
+        return PlayerPrefs.GetInt(saveName);
     }
+
+    private void SetLevel(PlanetName planetName, int value)
+    {
+        string saveName = planetName + SaveName;
+        PlayerPrefs.SetInt(saveName, value);
+    }
+
+    public void IncrementLevel(PlanetName planetName)
+    {
+        int currentLevel = GetLevel(planetName);
+        SetLevel(planetName, currentLevel+1);
+    }
+
     public float Cost
     {
         get => this.cost; 
