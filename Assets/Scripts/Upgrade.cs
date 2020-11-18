@@ -15,7 +15,6 @@ using UnityEngine.Serialization;
 public class Upgrade : ScriptableObject
 {
     [Header("Requirements")]
-    [Tooltip("The base cost")][SerializeField] float costCoefficient = 500f;
     [Tooltip("The strategy that dictates if adequate level has been reached.")][SerializeField] public ScriptableObject reqStrategy; //References a scriptable object that holds the required type- current player level.
     private IStrategy reqStrategyRef; //derived at runtime from reqStrategy
     
@@ -23,9 +22,11 @@ public class Upgrade : ScriptableObject
     [Tooltip("Multiplies the passive income for the substrategy by this ammount for each level")] 
     public BonusMultiplier Bonus = new BonusMultiplier(2.0f, StrategyType.DiplomatCommongrounder);
 
-    [Header("Params")] [SerializeField] private float costBase = 1.3f;
+    [Header("Params")] 
+    [SerializeField] private float costBase = 1.3f;
+    [Tooltip("The base cost")][SerializeField] float costCoefficient = 500f;
 
-    [Tooltip("Name used to save the state internally in PlayerPrefs")] [SerializeField]
+    [Tooltip("Name used to save the state internally in PlayerPrefs, Will be prefixed with the planet name")] [SerializeField]
     private string SaveName = "OverrideMe";
 
     public int GetLevel(PlanetName planetName)

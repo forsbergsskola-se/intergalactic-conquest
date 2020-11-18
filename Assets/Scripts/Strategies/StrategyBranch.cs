@@ -3,20 +3,12 @@
 [CreateAssetMenu(fileName = "Strategy", menuName = "ScriptableObjects/Strategy")]
 public class StrategyBranch : ScriptableObject, IStrategy
 {
-    [SerializeField][Tooltip("Cost, hardcoded for. Ask max what TODO")] 
-    private float cost = 100.0f; //TODO hardcoded for now.
     [Header("Sub-Strategies")]
     [SerializeField] private SubStrategy[] SubStrategies;
     
-    public float Cost => this.cost;
-    
-    /* TODO
-    public float GetCost(PlanetName planetName)
-    {
-        
-        return 
-    }
-    */
+    [Header("Params")] 
+    [SerializeField] private float costBase = 1.15f;
+    [Tooltip("The base cost")][SerializeField] float costCoefficient = 11f;
 
     public int GetLevel(PlanetName planetName)
     {
@@ -31,4 +23,10 @@ public class StrategyBranch : ScriptableObject, IStrategy
         
         return Mathf.FloorToInt((float) lvlCount / (float) SubStrategies.Length);
     }
+    
+    public float GetCost(PlanetName planetName)
+    {
+        return costCoefficient * Mathf.Pow(costBase, GetLevel(planetName));
+    }
+    
 }

@@ -41,7 +41,8 @@ public class StrategyButton : MonoBehaviour
 
     private void TryToBuyUpgrade()
     {
-        float cost = this.Strategy.Cost;
+        PlanetName planetName = planet.PlanetName;
+        float cost = this.Strategy.GetCost(planetName);
         
         //not enough influence
         if (cost > RetrieveInfluence())
@@ -49,7 +50,7 @@ public class StrategyButton : MonoBehaviour
         
         //make transaction
         this.planet.DecreaseInfluence(cost);
-        this.Strategy.IncrementLevel(planet.PlanetName);
+        this.Strategy.IncrementLevel(planetName);
         UpdateText();
     }
     

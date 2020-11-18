@@ -5,8 +5,11 @@ public class SubStrategy : ScriptableObject, IStrategy
 {
     [SerializeField][Tooltip("Name to use for storing substrategy level in PlayerPrefs")] 
     private string SaveName = "REPLACE_ME"; //TODO make something safer
-    [SerializeField][Tooltip("Cost")]
-    private float cost = 100; //TODO hardcoded for now.
+    
+    [Header("Params")] 
+    [SerializeField] private float costBase = 1.15f;
+    [Tooltip("The base cost")][SerializeField] float costCoefficient = 11f;
+    
     
     public int GetLevel(PlanetName planetName)
     {
@@ -26,9 +29,8 @@ public class SubStrategy : ScriptableObject, IStrategy
         SetLevel(planetName, currentLevel+1);
     }
 
-    public float Cost
+    public float GetCost(PlanetName planetName)
     {
-        get => this.cost; 
+        return costCoefficient * Mathf.Pow(costBase, GetLevel(planetName));
     }
-
 }

@@ -5,5 +5,5 @@ using UnityEngine;
 public interface IStrategy
 {
     int GetLevel(PlanetName planetName);
-    float Cost { get; }
+    float GetCost(PlanetName planetName);
 }
