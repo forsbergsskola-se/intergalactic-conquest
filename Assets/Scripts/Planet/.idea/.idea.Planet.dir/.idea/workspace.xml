@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528d9b90-ebad-4187-8cec-16b4aea00b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprites/Planets/IC_PlanetScreen_Galaxy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprites/Planets/IC_PlanetScreen_Galaxy.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Dark.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Dark.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Fire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Fire.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Light.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Light.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Sand.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Sand.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Toxic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Toxic.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Water.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Water.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Wind.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Wind.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanetName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlanetName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605698728736</updated>
-      <workItem from="1605698732913" duration="410000" />
+      <workItem from="1605698732913" duration="1598000" />
     </task>
     <servers />
   </component>
