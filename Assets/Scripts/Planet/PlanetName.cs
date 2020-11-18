@@ -7,5 +7,9 @@ public enum PlanetName
     Earth,
     Fire,
     Light,
-    Water
+    Water,
+    Wind,
+    Toxic,
+    Sand,
+    Dark
 }

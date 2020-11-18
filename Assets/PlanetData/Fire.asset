@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 79ccc73e7eb2365459647f3cc364eb6e, type: 3}
   State: 1
+  PlanetName: 1
+  StartingInfluence: 10000
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
   Upgrades: []
   InfluenceGoal: 1000
-  influence: 0
-  TotalInfluence: 0
   OnInfluenceChange:
     m_PersistentCalls:
       m_Calls: []
