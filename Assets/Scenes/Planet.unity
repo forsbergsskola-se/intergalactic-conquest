@@ -6338,6 +6338,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1670209359}
     m_Modifications:
+    - target: {fileID: 6268531659778211592, guid: 792bf3abaa5ad24489d787462a86d74b, type: 3}
+      propertyPath: m_TagString
+      value: InfluenceUpgradeUI
+      objectReference: {fileID: 0}
     - target: {fileID: 6268531661115142908, guid: 792bf3abaa5ad24489d787462a86d74b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -5,18 +5,17 @@ using UnityEngine.UI;
 public class InfluenceTextUI : MonoBehaviour
 {
     private Text influenceText;
-    [SerializeField] private Influence influence;
-    private void Start()
+    private Planet planet;
+    private void Awake()
     {
         this.influenceText = GetComponent<Text>();
-        if (this.influence == null)
-        {
-            Debug.LogWarning("Influence obj missing. Please provide influence reference", this);
-        }
+        planet = PlanetManager.instance.CurrentPlanet;
+        if (planet == null)
+            Debug.LogWarning("Current planet not found", this);
     }
 
     void Update()
     {
-        this.influenceText.text = Mathf.RoundToInt(this.influence.CurrentInfluence).ToString();
+        this.influenceText.text = Mathf.RoundToInt(planet.SpendableInfluence).ToString();
     }
 }

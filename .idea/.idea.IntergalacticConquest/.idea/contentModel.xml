@@ -24,6 +24,7 @@
             <e p="ClickablePlanet.cs" t="Include" />
             <e p="Planet.cs" t="Include" />
             <e p="PlanetManager.cs" t="Include" />
+            <e p="PlanetName.cs" t="Include" />
             <e p="PlanetUI.cs" t="Include" />
           </e>
           <e p="PlanetMenuUI.cs" t="Include" />

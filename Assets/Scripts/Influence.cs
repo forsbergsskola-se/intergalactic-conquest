@@ -7,8 +7,8 @@
 public class Influence : ScriptableObject
 {
 
-    [SerializeField] private readonly string saveName = "influence_spendable";
-    
+    [SerializeField] private readonly string saveName = "REPLACE_ME";
+
     public float CurrentInfluence
     {
         get => PlayerPrefs.GetFloat(saveName, 10000f);

@@ -91,7 +91,7 @@ public class PlanetManager : MonoBehaviour
     private void ProduceInfuence(){
 
         influenceProduction.ProduceInfluence(CurrentPlanet);
-        Debug.Log(CurrentPlanet.Influence);
+        Debug.Log(CurrentPlanet.SpendableInfluence);
     }
 
     private void SetupUI(Planet planet){

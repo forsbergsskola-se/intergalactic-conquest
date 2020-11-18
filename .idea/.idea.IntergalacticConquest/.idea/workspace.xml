@@ -20,25 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetName.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UpgradePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UpgradePanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InfluenceData/SpendableInfluence.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InfluenceData/TotalInfluenceAccumulated.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InfluenceData/SpendableInfluence.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InfluenceData/TotalInfluenceAccumulated.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Influence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Influence.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Staff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Staff.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/Strongman.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/Strongman.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Domestic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Domestic.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Foreign.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Foreign.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/PeaceMaker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/PeaceMaker.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/Warmonger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/Warmonger.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UpgradeData/ExampleUpgrade.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UpgradeData/ExampleUpgrade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +58,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistentData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SolarSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/ClickablePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetUI.cs" />
@@ -75,16 +67,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IdleProduction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/IStrategy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Influence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlanetData/PlanetNames.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Influence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +138,10 @@
       <workItem from="1605534400707" duration="27000" />
       <workItem from="1605605758711" duration="1948000" />
       <workItem from="1605624373230" duration="16967000" />
-      <workItem from="1605648096781" duration="332000" />
+      <workItem from="1605648096781" duration="744000" />
+      <workItem from="1605649079882" duration="242000" />
+      <workItem from="1605649404360" duration="3000" />
+      <workItem from="1605690227016" duration="4760000" />
     </task>
     <servers />
   </component>
