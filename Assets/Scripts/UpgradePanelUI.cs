@@ -33,14 +33,12 @@ public class UpgradePanelUI : MonoBehaviour
     public void TryToBuy()
     {
         // attempt to buy the upgrade, return true if successful
-        bool transactionSuccessful = this.upgrade.PurchaseUpgrade();
-
-        if (transactionSuccessful)
+        if (this.upgrade.PurchaseUpgrade())
         {
             UpdateLevelText();
             UpdateRequirementText();
             UpdateBuyButton();
-        } 
+        }
     }
 
     private void UpdateRequirementText()

@@ -14,13 +14,6 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "Upgrade", menuName = "ScriptableObjects/Upgrade", order = 4)]
 public class Upgrade : ScriptableObject
 {
-    [Header("References")] 
-    //[Tooltip("The strategy type for this upgrade")]
-    //public Strategy Strategy; //References a scriptable object that holds current player level for this Upgrade.
-
-    [Tooltip("The spendable influence scriptable object")]
-    [SerializeField] private Influence influence; //TODO consider other solutions if time allows.
-    
     [Header("Requirements")]
     [Tooltip("The base cost")][SerializeField] float costCoefficient = 500f;
     [Tooltip("The strategy that dictates if adequate level has been reached.")][SerializeField] public ScriptableObject reqStrategy; //References a scriptable object that holds the required type- current player level.
@@ -35,6 +28,7 @@ public class Upgrade : ScriptableObject
     [Tooltip("Name used to save the state internally in PlayerPrefs")] [SerializeField]
     private string SaveName = "OverrideMe";
 
+    private Planet planet = null;
     public int Level
     {
         get => PlayerPrefs.GetInt(SaveName, 0);
@@ -57,7 +51,7 @@ public class Upgrade : ScriptableObject
                 reqStrategyRef = reqStrategy as IStrategy;
             
             // can afford AND current level is at least the required level. 
-            return CurrentCost <= this.influence.CurrentInfluence &&
+            return CurrentCost <= RetrieveInfluence() &&
                    reqStrategyRef.Level >= CurrentLevelRequirement;
         }
     }
@@ -83,10 +77,28 @@ public class Upgrade : ScriptableObject
             return false;
         
         // Make transaction
-        this.influence.CurrentInfluence -= CurrentCost;
+        this.planet.DecreaseInfluence(CurrentCost);
         this.Level += 1;
+        Debug.Log("current influence : " + planet.SpendableInfluence); //TODO remove log!
         return true;
     }
+
+    private float RetrieveInfluence()
+    {
+        if (planet == null)
+            planet = PlanetManager.instance.CurrentPlanet;
+
+        return planet.SpendableInfluence;
+    }
+
+    private void SpendInfluence(float amount)
+    {
+        if (planet == null)
+            planet = PlanetManager.instance.CurrentPlanet;
+
+        planet.DecreaseInfluence(amount);
+    }
+    
 
     [Serializable]
     public struct BonusMultiplier

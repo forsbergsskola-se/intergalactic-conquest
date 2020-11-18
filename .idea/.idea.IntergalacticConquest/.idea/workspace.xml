@@ -20,19 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetName.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InfluenceData/SpendableInfluence.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InfluenceData/TotalInfluenceAccumulated.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InfluenceData/SpendableInfluence.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InfluenceData/TotalInfluenceAccumulated.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Influence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Influence.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +56,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpendableInfluence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IdleProduction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/Strategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/IStrategy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/PlanetData/PlanetNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetName.cs" />
@@ -81,6 +68,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Influence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InfluenceTextUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +132,8 @@
       <workItem from="1605648096781" duration="744000" />
       <workItem from="1605649079882" duration="242000" />
       <workItem from="1605649404360" duration="3000" />
-      <workItem from="1605690227016" duration="4760000" />
+      <workItem from="1605690227016" duration="5654000" />
+      <workItem from="1605706526032" duration="3619000" />
     </task>
     <servers />
   </component>

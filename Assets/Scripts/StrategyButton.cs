@@ -9,10 +9,11 @@ public class StrategyButton : MonoBehaviour
     [Header("References")]
     [Tooltip("The strategy associated with this button")]
     public SubStrategy Strategy;
-    //Reference to a dummy class for the influence
-    public Influence Influence;
     public Text LevelText;
 
+    // variables
+    private Planet planet = null;
+    
     public void ButtonClick()
     {
         TryToBuyUpgrade();
@@ -20,7 +21,7 @@ public class StrategyButton : MonoBehaviour
 
     public void Start()
     {
-        if (this.Influence == null || this.Strategy == null)
+        if (this.Strategy == null)
         {
             Debug.LogWarning("Necessary components not found", this);
             SetText("80085");
@@ -31,16 +32,28 @@ public class StrategyButton : MonoBehaviour
 
     private void TryToBuyUpgrade()
     {
+        float cost = this.Strategy.Cost;
+        
         //not enough influence
-        if (this.Strategy.Cost >= this.Influence.CurrentInfluence)
+        if (cost > RetrieveInfluence())
             return;
         
         //make transaction
-        this.Influence.CurrentInfluence -= Strategy.Cost;
+        this.planet.DecreaseInfluence(cost);
         this.Strategy.Level += 1;
         UpdateText();
-        Debug.Log("current influence : " + this.Influence.CurrentInfluence); //TODO remove log!
-        //TODO update influence
+    }
+    
+    private float RetrieveInfluence()
+    {
+        if (planet == null)
+        {
+            this.planet = PlanetManager.instance.CurrentPlanet;
+            if (planet == null)
+                Debug.LogWarning("Planet not found", this);
+        }
+
+        return planet.SpendableInfluence;
     }
     
     private void UpdateText()
