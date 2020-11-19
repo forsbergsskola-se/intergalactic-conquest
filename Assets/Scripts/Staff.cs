@@ -4,6 +4,8 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "Staff", menuName = "ScriptableObjects/Staff", order = 3)]
 public class Staff : ScriptableObject
 {
+    public StrategyType StrategyType;
+    
     [Header("Staff Information")]
     public string Name;
 
@@ -20,12 +22,12 @@ public class Staff : ScriptableObject
     public SubStrategy SubStrategy;
 
     [Header("Influence Settings")]
-    public int BaseProductionAmount;
+    public float BaseProductionAmount = 1.0f;
 
-    [Space]
-    public float IdleProductionSpeed = 1.0f;
+    //[Space]
+    //public float IdleProductionSpeed = 1.0f;
 
-    public int InfluencePerTick{
+    public float InfluencePerTick{
 
         get{
             
@@ -35,7 +37,7 @@ public class Staff : ScriptableObject
                     return BaseProductionAmount;
                 
                 case ProductionState.Inactive:
-                    return Mathf.RoundToInt(Mathf.Pow(BaseProductionAmount, 0.25f));
+                    return BaseProductionAmount * 0.25f;
                     
                 default:
                     return BaseProductionAmount;

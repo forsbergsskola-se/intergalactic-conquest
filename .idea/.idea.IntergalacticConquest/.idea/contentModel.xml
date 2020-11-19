@@ -25,6 +25,7 @@
           <e p="Planet" t="Include">
             <e p="ClickablePlanet.cs" t="Include" />
             <e p="Planet.cs" t="Include" />
+            <e p="PlanetBonusList.cs" t="Include" />
             <e p="PlanetManager.cs" t="Include" />
             <e p="PlanetName.cs" t="Include" />
             <e p="PlanetUI.cs" t="Include" />
@@ -42,6 +43,7 @@
           <e p="StrategyButton.cs" t="Include" />
           <e p="TimeKeeper.cs" t="Include" />
           <e p="Upgrade.cs" t="Include" />
+          <e p="UpgradeList.cs" t="Include" />
           <e p="UpgradePanelUI.cs" t="Include" />
         </e>
       </e>

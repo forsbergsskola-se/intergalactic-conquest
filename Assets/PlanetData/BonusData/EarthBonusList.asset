@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d6ac55d56741740a2fae2894639c10, type: 3}
+  m_Name: EarthBonusList
+  m_EditorClassIdentifier: 
+  bonusList:
+  - StrategyType: 0
+    Multiplier: 1
+  - StrategyType: 1
+    Multiplier: 1
+  - StrategyType: 2
+    Multiplier: 1
+  - StrategyType: 3
+    Multiplier: 1
+  - StrategyType: 4
+    Multiplier: 1
+  - StrategyType: 5
+    Multiplier: 1
+  - StrategyType: 6
+    Multiplier: 1
+  - StrategyType: 7
+    Multiplier: 1
+  - StrategyType: 8
+    Multiplier: 1

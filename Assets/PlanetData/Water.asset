@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Water
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 2149eb3408b3b364181b1721e8422949, type: 3}
+  planetBonusList: {fileID: 11400000, guid: 65b7c888cf74a484c9df535beb80d172, type: 2}
   State: 1
   PlanetName: 3
   StartingInfluence: 10000
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
-  Upgrades: []
+  UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
   InfluenceGoal: 1500
   OnInfluenceChange:
     m_PersistentCalls:

@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Light
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 85401023ebfc3f048ba5ac91cf43a799, type: 3}
+  planetBonusList: {fileID: 11400000, guid: fbb21a7c2b9dcf944ae17323b961f0cf, type: 2}
   State: 1
   PlanetName: 2
   StartingInfluence: 10000
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
-  Upgrades: []
+  UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
   InfluenceGoal: 5000
   OnInfluenceChange:
     m_PersistentCalls:

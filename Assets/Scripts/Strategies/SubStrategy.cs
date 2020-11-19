@@ -16,7 +16,6 @@ public class SubStrategy : ScriptableObject, IStrategy
     public int GetLevel(PlanetName planetName)
     {
         string saveName = savePrefix + planetName + Enum.GetName(typeof (StrategyType), strategyType);;
-        Debug.Log(saveName);
         return PlayerPrefs.GetInt(saveName);
     }
 

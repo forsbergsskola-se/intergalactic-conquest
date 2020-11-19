@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Fire
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 79ccc73e7eb2365459647f3cc364eb6e, type: 3}
+  planetBonusList: {fileID: 11400000, guid: b9b9bb317489b6c4b80520f3654feca5, type: 2}
   State: 1
   PlanetName: 1
   StartingInfluence: 10000
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
-  Upgrades: []
+  UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
   InfluenceGoal: 1000
   OnInfluenceChange:
     m_PersistentCalls:

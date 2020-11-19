@@ -15,8 +15,9 @@ using UnityEngine.Serialization;
 public class Upgrade : ScriptableObject
 {
 
+    [FormerlySerializedAs("strategyType")]
     [Header("UpgradeType")] [Tooltip("The type of this upgrade. Used for save name prefixed with the planet name")]
-    [SerializeField] private StrategyType strategyType;
+    [SerializeField] public StrategyType StrategyType;
 
     [Header("Requirements")]
     [Tooltip("The strategy that dictates if adequate level has been reached.")][SerializeField] public ScriptableObject reqStrategy; //References a scriptable object that holds the required type- current player level.
@@ -35,13 +36,13 @@ public class Upgrade : ScriptableObject
     public int GetLevel(PlanetName planetName)
     {
         // eg. saving in playerPrefs as upgrade_EarthDiplomacyCommongrounder
-        string saveName = savePrefix + Enum.GetName(typeof(PlanetName), planetName) + Enum.GetName(typeof(StrategyType), strategyType);
+        string saveName = savePrefix + Enum.GetName(typeof(PlanetName), planetName) + Enum.GetName(typeof(StrategyType), StrategyType);
         return PlayerPrefs.GetInt(saveName, 0);
     }
     
     public void SetLevel(PlanetName planetName, int val) {
         // eg. fetching upgrade_EarthDiplomacyCommongrounder in PlayerPrefs
-        string saveName = savePrefix + Enum.GetName(typeof(PlanetName), planetName) + Enum.GetName(typeof(StrategyType), strategyType);
+        string saveName = savePrefix + Enum.GetName(typeof(PlanetName), planetName) + Enum.GetName(typeof(StrategyType), StrategyType);
         PlayerPrefs.SetInt(saveName, val);
     }
 

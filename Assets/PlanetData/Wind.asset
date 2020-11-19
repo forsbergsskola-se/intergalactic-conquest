@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Wind
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: f9a0aa00cc3681143a66369fc5824fdc, type: 3}
+  planetBonusList: {fileID: 11400000, guid: 5ec8d5c7c1878a4479d254d72809c73e, type: 2}
   State: 1
   PlanetName: 4
   StartingInfluence: 10000
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
-  Upgrades: []
+  UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
   InfluenceGoal: 10000
   OnInfluenceChange:
     m_PersistentCalls:

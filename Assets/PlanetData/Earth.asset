@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Earth
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: ab27459afb8a85a44913c4c10f6a4f51, type: 3}
+  planetBonusList: {fileID: 11400000, guid: 3461874bd6a1f0748a34ea79b7dab7d1, type: 2}
   State: 1
+  PlanetName: 0
+  StartingInfluence: 10000
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
-  Upgrades: []
+  UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
   InfluenceGoal: 500
-  influence: 0
-  TotalInfluence: 0
   OnInfluenceChange:
     m_PersistentCalls:
       m_Calls: []
