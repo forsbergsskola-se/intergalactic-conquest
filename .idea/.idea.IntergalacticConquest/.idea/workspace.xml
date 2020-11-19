@@ -19,33 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Influence/ClickInfluenceProduction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategyList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategyList.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StrategyData/SubStrategyList.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StrategyData/SubStrategyList.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Dark.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Dark.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Earth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Earth.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Fire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Fire.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Light.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Light.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Sand.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Sand.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Toxic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Toxic.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Water.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Water.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Wind.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Wind.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Planet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Influence/InfluenceProduction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Influence/InfluenceProduction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Influence/ClickInfluenceProduction.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradeList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeList.cs" afterDir="false" />
-    </list>
+    <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +135,7 @@
       <workItem from="1605795085805" duration="3891000" />
       <workItem from="1605800713017" duration="6511000" />
       <workItem from="1605807410573" duration="4668000" />
-      <workItem from="1605812670152" duration="478000" />
+      <workItem from="1605812670152" duration="802000" />
     </task>
     <servers />
   </component>
