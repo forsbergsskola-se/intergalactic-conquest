@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5ab475d6a01440498666ad10857359c, type: 3}
   m_Name: Foreign
   m_EditorClassIdentifier: 
-  influence: {fileID: 11400000, guid: a3105e1b872943b40af5314104eebf40, type: 2}
-  costCoefficient: 500
+  strategyType: 1
   reqStrategy: {fileID: 11400000, guid: a5d75dd8f6bb773459a9c39e810fe978, type: 2}
-  Bonus:
-    Multiplier: 2
-    StrategyType: 1
+  BonusMultiplier: 2
   costBase: 1.3
-  SaveName: upgrade_foreign
+  costCoefficient: 500

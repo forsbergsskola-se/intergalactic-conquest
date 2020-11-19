@@ -10,17 +10,19 @@ public class SubStrategy : ScriptableObject, IStrategy
     [Header("Params")] 
     [SerializeField] private float costBase = 1.15f;
     [Tooltip("The base cost")][SerializeField] float costCoefficient = 11f;
+
+    private string savePrefix = "substrategy_";
     
     public int GetLevel(PlanetName planetName)
     {
-        string saveName = planetName + Enum.GetName(typeof (StrategyType), strategyType);;
+        string saveName = savePrefix + planetName + Enum.GetName(typeof (StrategyType), strategyType);;
         Debug.Log(saveName);
         return PlayerPrefs.GetInt(saveName);
     }
 
     private void SetLevel(PlanetName planetName, int value)
     {
-        string saveName = planetName + Enum.GetName(typeof (StrategyType), strategyType);
+        string saveName = savePrefix + planetName + Enum.GetName(typeof (StrategyType), strategyType);
         PlayerPrefs.SetInt(saveName, value);
     }
 

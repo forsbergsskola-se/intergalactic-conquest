@@ -14,29 +14,34 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "Upgrade", menuName = "ScriptableObjects/Upgrade", order = 4)]
 public class Upgrade : ScriptableObject
 {
+
+    [Header("UpgradeType")] [Tooltip("The type of this upgrade. Used for save name prefixed with the planet name")]
+    [SerializeField] private StrategyType strategyType;
+
     [Header("Requirements")]
     [Tooltip("The strategy that dictates if adequate level has been reached.")][SerializeField] public ScriptableObject reqStrategy; //References a scriptable object that holds the required type- current player level.
     private IStrategy reqStrategyRef; //derived at runtime from reqStrategy
     
     [Header("Effects")]
     [Tooltip("Multiplies the passive income for the substrategy by this ammount for each level")] 
-    public BonusMultiplier Bonus = new BonusMultiplier(2.0f, StrategyType.DiplomatCommongrounder);
+    public float BonusMultiplier = 2.0f;
 
     [Header("Params")] 
     [SerializeField] private float costBase = 1.3f;
     [Tooltip("The base cost")][SerializeField] float costCoefficient = 500f;
-
-    [Tooltip("Name used to save the state internally in PlayerPrefs, Will be prefixed with the planet name")] [SerializeField]
-    private string SaveName = "OverrideMe";
+    
+    private string savePrefix = "upgrade_";
 
     public int GetLevel(PlanetName planetName)
     {
-        string saveName = Enum.GetName(typeof(PlanetName), planetName) + SaveName;
+        // eg. saving in playerPrefs as upgrade_EarthDiplomacyCommongrounder
+        string saveName = savePrefix + Enum.GetName(typeof(PlanetName), planetName) + Enum.GetName(typeof(StrategyType), strategyType);
         return PlayerPrefs.GetInt(saveName, 0);
     }
     
     public void SetLevel(PlanetName planetName, int val) {
-        string saveName = Enum.GetName(typeof(PlanetName), planetName) + SaveName;
+        // eg. fetching upgrade_EarthDiplomacyCommongrounder in PlayerPrefs
+        string saveName = savePrefix + Enum.GetName(typeof(PlanetName), planetName) + Enum.GetName(typeof(StrategyType), strategyType);
         PlayerPrefs.SetInt(saveName, val);
     }
 
@@ -105,19 +110,5 @@ public class Upgrade : ScriptableObject
     private void SpendInfluence(Planet planet, float amount)
     {
         planet.DecreaseInfluence(amount);
-    }
-    
-
-    [Serializable]
-    public struct BonusMultiplier
-    {
-        public BonusMultiplier(float multiplier, StrategyType strategyType)
-        {
-            Multiplier = multiplier;
-            StrategyType = strategyType;
-        }
-
-        public float Multiplier;
-        public StrategyType StrategyType;
     }
 }

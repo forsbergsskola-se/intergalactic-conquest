@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/CommonGrounder.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/Strongman.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Diplomacy Sub-Strategies/Strongman.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Foreign.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Economy Sub-Strategies/Foreign.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/PeaceMaker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/PeaceMaker.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/Warmonger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StrategyData/Military Sub-Strategies/Warmonger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +66,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradePanelUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/IStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StrategyButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +137,7 @@
       <workItem from="1605716240952" duration="456000" />
       <workItem from="1605716843299" duration="1490000" />
       <workItem from="1605728425342" duration="1806000" />
-      <workItem from="1605770231128" duration="1387000" />
+      <workItem from="1605770231128" duration="2213000" />
     </task>
     <servers />
   </component>
