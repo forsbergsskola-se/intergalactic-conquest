@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 85401023ebfc3f048ba5ac91cf43a799, type: 3}
   planetBonusList: {fileID: 11400000, guid: fbb21a7c2b9dcf944ae17323b961f0cf, type: 2}
-  State: 1
+  State: 0
   PlanetName: 2
   StartingInfluence: 0
   music: {fileID: 8300000, guid: b011f59610defcd44b76fdd90002bd9e, type: 3}
