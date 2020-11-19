@@ -3,16 +3,13 @@
 [CreateAssetMenu(fileName = "Strategy", menuName = "ScriptableObjects/Strategy")]
 public class StrategyBranch : ScriptableObject, IStrategy
 {
-    [SerializeField] [Tooltip("The type that this strategy belongs to")]
-    private StrategyType strategyType;
-    
     [Header("Sub-Strategies")]
     [SerializeField] private SubStrategy[] SubStrategies;
     
     [Header("Params")] 
     [SerializeField] private float costBase = 1.15f;
     [Tooltip("The base cost")][SerializeField] float costCoefficient = 11f;
-    
+
     public int GetLevel(PlanetName planetName)
     {
         if (SubStrategies.Length <= 0)
@@ -31,9 +28,5 @@ public class StrategyBranch : ScriptableObject, IStrategy
     {
         return costCoefficient * Mathf.Pow(costBase, GetLevel(planetName));
     }
-
-    public StrategyType GetStrategyType()
-    {
-        return this.strategyType;
-    }
+    
 }

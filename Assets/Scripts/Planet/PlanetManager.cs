@@ -31,7 +31,7 @@ public class PlanetManager : MonoBehaviour
     public UnityEvent<Planet> OnPlanetChange;
 
     private IdleProduction idleProduction => GetComponent<IdleProduction>();
-    private ClickInfluenceProduction ClickInfluenceProduction => GetComponent<ClickInfluenceProduction>();
+    private InfluenceProduction influenceProduction => GetComponent<InfluenceProduction>();
     private PlanetUI planetUI => GetComponent<PlanetUI>();
 
     private bool CanProduce = true;
@@ -87,14 +87,16 @@ public class PlanetManager : MonoBehaviour
         }
 
         if(CanProduce && OnPlanet()){
-            planetUI.PlanetButton.onClick.AddListener(() => this.ProduceInfluence());
+
+            planetUI.PlanetButton.onClick.AddListener(ProduceInfuence);
             CanProduce = false;
         }
     }
 
-    public void ProduceInfluence()
-    {
-        ClickInfluenceProduction.ProduceInfluence(CurrentPlanet);
+    private void ProduceInfuence(){
+
+        influenceProduction.ProduceInfluence(CurrentPlanet);
+        Debug.Log(CurrentPlanet.SpendableInfluence);
     }
 
     private void SetupUI(Planet planet){

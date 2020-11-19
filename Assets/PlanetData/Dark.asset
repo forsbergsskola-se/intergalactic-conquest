@@ -14,13 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlanetSprite: {fileID: 21300000, guid: 99aa7934483ab514aa3b78ba97d2a287, type: 3}
   planetBonusList: {fileID: 11400000, guid: 6cc34517af98e5c4e82176888a49dda0, type: 2}
-  State: 0
+  State: 1
   PlanetName: 7
   StartingInfluence: 0
   music: {fileID: 8300000, guid: d9234f13335763146b50dba374d16149, type: 3}
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
   UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
-  subStrategyList: {fileID: 11400000, guid: 830caffeaa8c4e44398735d014a24979, type: 2}
   InfluenceGoal: 100000
   OnInfluenceChange:
     m_PersistentCalls:
