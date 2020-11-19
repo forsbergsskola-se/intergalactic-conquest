@@ -34,7 +34,7 @@ public class PlanetUI : MonoBehaviour
 
     public void UpdateInfluenceText(Planet planet){
 
-        InfluenceAmount.text = "" + planet.SpendableInfluence;
+        InfluenceAmount.text = Mathf.RoundToInt(planet.SpendableInfluence).ToString();
     }
 
     public void SetPlanetSprite(Planet planet){

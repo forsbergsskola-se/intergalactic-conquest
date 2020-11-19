@@ -42,6 +42,7 @@
           </e>
           <e p="StrategyButton.cs" t="Include" />
           <e p="TimeKeeper.cs" t="Include" />
+          <e p="TotalInfluenceTextUI.cs" t="Include" />
           <e p="Upgrade.cs" t="Include" />
           <e p="UpgradeList.cs" t="Include" />
           <e p="UpgradePanelUI.cs" t="Include" />
