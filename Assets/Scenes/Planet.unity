@@ -872,10 +872,14 @@ MonoBehaviour:
     - Jonas
     - Ivan
     - Karl
+    - Sigrid
   LastName:
     Words:
     - 'Vallinder '
     - Wallinder
+    - Smith
+    - Jonasson
+    - Arima
   Title:
     Words:
     - Programmer
@@ -5406,6 +5410,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1670209359}
     m_Modifications:
+    - target: {fileID: 1907673461330079961, guid: 2a9f2094fc4c8914387802641337aac3, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6937625054562823134, guid: 2a9f2094fc4c8914387802641337aac3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

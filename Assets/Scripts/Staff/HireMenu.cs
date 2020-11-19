@@ -12,10 +12,6 @@ public class HireMenu : MonoBehaviour
     
     private bool IsToggled = false;
     
-    private void Update() {
-        
-        
-    }
 
     public void ToggleObjects(){
 
