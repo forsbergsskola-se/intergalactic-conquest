@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/UgradeList", order = 8)]
+[CreateAssetMenu(fileName = "SubStrategyList", menuName = "ScriptableObjects/SubStrategyList", order = 12)]
 public class UpgradeList : ScriptableObject
 {
     [Tooltip("The 9 upgrades that each planet will have")][SerializeField] private Upgrade[] upgradeList;
@@ -37,7 +37,13 @@ public class UpgradeList : ScriptableObject
     
         return u;
     }
-    
 
+    public void ResetUpgrades(PlanetName planetName)
+    {
+        foreach (var upgrade in upgradeList)
+        {
+            upgrade.Reset(planetName);
+        }
+    }
 
 }

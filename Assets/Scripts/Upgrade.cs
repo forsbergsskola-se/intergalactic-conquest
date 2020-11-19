@@ -112,4 +112,11 @@ public class Upgrade : ScriptableObject
     {
         planet.DecreaseInfluence(amount);
     }
+
+    // Sets this upgrade to zero for the given planet
+    public void Reset(PlanetName planetName)
+    {
+        SetLevel(planetName, 0);
+    }
+    
 }
