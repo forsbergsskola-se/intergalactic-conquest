@@ -22,6 +22,7 @@ MonoBehaviour:
   UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
   subStrategyList: {fileID: 11400000, guid: 830caffeaa8c4e44398735d014a24979, type: 2}
   InfluenceGoal: 100000
+  gameWideInfluence: {fileID: 11400000, guid: a3105e1b872943b40af5314104eebf40, type: 2}
   OnInfluenceChange:
     m_PersistentCalls:
       m_Calls: []

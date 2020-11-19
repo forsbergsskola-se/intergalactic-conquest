@@ -25,6 +25,9 @@ public class Planet : ScriptableObject
 
     [Header("Domination")] public float InfluenceGoal;
 
+    [Tooltip("Reference to the game wide total influence")]
+    [SerializeField] private Influence gameWideInfluence;
+
     // Derived variables
     //private Dictionary<StrategyType, Bonus> bonusLookupTable; //Generated at runtime, unique for each planet. Derived from planetBonusList
     private string spendableInfluenceSaveName;
@@ -51,7 +54,7 @@ public class Planet : ScriptableObject
 
     public void IncreaseInfluence(float amount)
     {
-
+        gameWideInfluence.CurrentInfluence += amount;
         SpendableInfluence += amount;
         TotalInfluence += amount;
     }
