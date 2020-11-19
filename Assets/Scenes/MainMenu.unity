@@ -551,6 +551,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 815179821956822746, guid: 4052f9798b162064baf592becbb54f51, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 815179821956822746, guid: 4052f9798b162064baf592becbb54f51, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0190c2953e4037043932703efd386e46, type: 3}
     - target: {fileID: 815179821956822747, guid: 4052f9798b162064baf592becbb54f51, type: 3}
       propertyPath: s_VolumeSliders.Array.data[0]
       value: 
@@ -565,7 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 1193398959}
     - target: {fileID: 815179821956822748, guid: 4052f9798b162064baf592becbb54f51, type: 3}
       propertyPath: m_Name
-      value: AudioController
+      value: VolumeController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4052f9798b162064baf592becbb54f51, type: 3}
@@ -1665,10 +1673,10 @@ RectTransform:
   m_Father: {fileID: 220860558}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 357.09024, y: -184.58499}
-  m_SizeDelta: {x: -745.8195, y: -390.83002}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -42.90976, y: 38.91501}
+  m_SizeDelta: {x: 56, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435932782
 MonoBehaviour:
@@ -5513,10 +5521,10 @@ RectTransform:
   m_Father: {fileID: 220860558}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 294, y: -184.58}
-  m_SizeDelta: {x: -745.81726, y: -390.8302}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -106, y: 38.92}
+  m_SizeDelta: {x: 56, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972036050
 MonoBehaviour:

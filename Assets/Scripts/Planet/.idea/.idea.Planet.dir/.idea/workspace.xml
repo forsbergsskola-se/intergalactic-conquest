@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="528d9b90-ebad-4187-8cec-16b4aea00b2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Dark Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Dark Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Earth Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Earth Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Fire Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Fire Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Light Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Light Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Poison Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Poison Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Sand Final Mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Sand Final Mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Water Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Water Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Wind Final mix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Audio/Planet Music/Planet Wind Final mix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AudioChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AudioChanger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Dark.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Dark.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Earth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Earth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Fire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Fire.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Light.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Light.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Sand.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Sand.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Toxic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Toxic.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Water.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Water.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlanetData/Wind.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Wind.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prefabs/Managers/AudioController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prefabs/Managers/VolumeController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prefabs/Managers/AudioController.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prefabs/Managers/VolumeController.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Planet.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Planet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +64,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AudioChanger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Planet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlanetName.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../StrategyButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlanetManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Menu/SoundSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlanetUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Menu/AudioController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PlanetName.cs" />
+        <option value="$PROJECT_DIR$/../../PlanetData/Earth.asset" />
+        <option value="$PROJECT_DIR$/Planet.cs" />
+        <option value="$PROJECT_DIR$/../../Scenes/Planet.unity" />
+        <option value="$PROJECT_DIR$/AudioChanger.cs" />
       </list>
     </option>
   </component>
@@ -31,6 +91,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -43,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605698728736</updated>
-      <workItem from="1605698732913" duration="1598000" />
+      <workItem from="1605698732913" duration="13332000" />
     </task>
     <servers />
   </component>
@@ -52,6 +113,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

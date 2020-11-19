@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "Planet", menuName = "ScriptableObjects/Planet", order = 1)]
@@ -13,8 +14,9 @@ public class Planet : ScriptableObject
     public ProductionState State = ProductionState.Inactive;
     public PlanetName PlanetName;
     public float StartingInfluence = 10000f;
-
-    [Header(" Planet Staff & Upgrades")] 
+    public AudioClip music;
+    
+    [Header(" Planet Staff & Upgrades")]
     public Staff Staff;
     // [SerializeField] private StaffList StaffList;
 
@@ -84,7 +86,6 @@ public class Planet : ScriptableObject
         return Mathf.Max( 1.0f, level * upgradeBonusMultiplier);
     }
 }
-
 
 public enum ProductionState
 {
