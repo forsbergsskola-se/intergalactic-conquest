@@ -14,7 +14,8 @@ public class Planet : ScriptableObject
     public PlanetName PlanetName;
     public float StartingInfluence = 10000f;
 
-    [Header(" Planet Staff & Upgrades")] public Staff Staff;
+    [Header(" Planet Staff & Upgrades")] 
+    public Staff Staff;
     // [SerializeField] private StaffList StaffList;
 
     [Space] [SerializeField] private UpgradeList UpgradeList;

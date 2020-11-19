@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
@@ -22,6 +24,9 @@ public class PlanetManager : MonoBehaviour
         }
     }
     
+    [Header("Staff")]
+    public List<Staff> HirableStaff = new List<Staff>();
+
     [HideInInspector]
     public UnityEvent<Planet> OnPlanetChange;
 

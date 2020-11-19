@@ -3424,6 +3424,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: Title.Words.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: LastName.Words.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: Title.Words.Array.data[0]
+      value: Programmer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: FirstName.Words.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: LastName.Words.Array.data[0]
+      value: Vallinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: FirstName.Words.Array.data[0]
+      value: Linus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
 --- !u!1 &881384291
