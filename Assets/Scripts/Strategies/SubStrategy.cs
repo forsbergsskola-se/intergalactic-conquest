@@ -1,25 +1,26 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [CreateAssetMenu(fileName = "SubStrategy", menuName = "ScriptableObjects/Sub-Strategy", order = 0)]
 public class SubStrategy : ScriptableObject, IStrategy
 {
-    [SerializeField][Tooltip("Name to use for storing substrategy level in PlayerPrefs")] 
-    private string SaveName = "REPLACE_ME"; //TODO make something safer
-    
+    [SerializeField] [Tooltip("The type that this strategy belongs to, will be used for save name prefixed by the planet")]
+    private StrategyType strategyType;
+
     [Header("Params")] 
     [SerializeField] private float costBase = 1.15f;
     [Tooltip("The base cost")][SerializeField] float costCoefficient = 11f;
     
-    
     public int GetLevel(PlanetName planetName)
     {
-        string saveName = planetName + SaveName;
+        string saveName = planetName + Enum.GetName(typeof (StrategyType), strategyType);;
+        Debug.Log(saveName);
         return PlayerPrefs.GetInt(saveName);
     }
 
     private void SetLevel(PlanetName planetName, int value)
     {
-        string saveName = planetName + SaveName;
+        string saveName = planetName + Enum.GetName(typeof (StrategyType), strategyType);
         PlayerPrefs.SetInt(saveName, value);
     }
 
