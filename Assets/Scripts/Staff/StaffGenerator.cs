@@ -4,7 +4,20 @@ using UnityEngine;
 
 public class StaffGenerator : MonoBehaviour
 {
-    public Staff testStaff;
+    [Header("StaffCards")]
+    public GameObject StaffCard;
+
+    [Space]
+    public Transform Menu;
+
+    [Space]
+    public int GenerateAmount;
+
+    [Header("Staff")]
+    public Staff HiredStaff;
+
+    [Space]
+    public StaffCard HiredCard;
 
     [Header("Wordlists")]
     public Wordlist FirstName;
@@ -12,17 +25,45 @@ public class StaffGenerator : MonoBehaviour
 
     [Space]
     public Wordlist Title;
+    
+    private void Update() {
 
-    private void Start() {
-        
-        testStaff = GenerateStaff();
+        if(PlanetManager.instance.CurrentPlanet.IsStaffed){
+
+            HiredStaff = PlanetManager.instance.CurrentPlanet.Staff;
+        }        
+
+        if(HiredStaff != null){
+
+            HiredCard.staff = HiredStaff;
+        }
+
+        if(PlanetManager.instance.OnPlanet()){
+
+            for (int i = 0; i < GenerateAmount; i++)
+            {
+                CreateStaff(GenerateStaff());
+                GenerateAmount--;
+            }
+        }
+
+        if(PlanetManager.instance.OnPlanet() && PlanetManager.instance.CurrentPlanet.IsStaffed){
+
+            
+        }
+    }
+
+    public void CreateStaff(Staff staff){
+
+        GameObject clone = Instantiate(StaffCard, Menu);
+        clone.GetComponent<StaffCard>().staff = staff;
     }
 
     public Staff GenerateStaff(){
 
         Staff staff = ScriptableObject.CreateInstance<Staff>();
 
-        staff.Name = GetRandomWord(FirstName) + " " + GetRandomWord(LastName);
+        staff.StaffName = GetRandomWord(FirstName) + " " + GetRandomWord(LastName);
 
         staff.Title = GetRandomWord(Title);
 

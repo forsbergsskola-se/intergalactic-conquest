@@ -18,21 +18,23 @@ public class Planet : ScriptableObject
     
     [Header(" Planet Staff & Upgrades")]
     public Staff Staff;
-    // [SerializeField] private StaffList StaffList;
+    
 
     [Space] [SerializeField] private UpgradeList UpgradeList;
 
     [Header("Domination")] public float InfluenceGoal;
 
     // Derived variables
-    //private Dictionary<StrategyType, Bonus> bonusLookupTable; //Generated at runtime, unique for each planet. Derived from planetBonusList
     private string spendableInfluenceSaveName;
     private string totalInfluenceSaveName;
+
+    public bool IsStaffed => Staff != null;
 
     //Properties
     public float SpendableInfluence
     {
         get => PlayerPrefs.GetFloat(spendableInfluenceSaveName, StartingInfluence);
+
         private set
         {
             PlayerPrefs.SetFloat(spendableInfluenceSaveName, value);
@@ -57,7 +59,6 @@ public class Planet : ScriptableObject
 
     public void DecreaseInfluence(float amount)
     {
-
         SpendableInfluence -= amount;
     }
 
@@ -85,6 +86,34 @@ public class Planet : ScriptableObject
         // level can be 0 therefore setting min value to 1
         return Mathf.Max( 1.0f, level * upgradeBonusMultiplier);
     }
+
+    public void FireStaff(){
+
+        Staff = null;
+    }
+
+    public void HireStaff(Staff staff){
+
+        Staff = staff;
+    }
+
+    private void ResetPlanet()
+    {
+        // Reset Upgrades
+        //this.UpgradeList.ResetUpgrades(this.PlanetName);
+        
+        // Reset TotalInfluence
+        this.TotalInfluence = 0.0f;
+        
+        // Reset SubStrategy levels
+        //this.subStrategyList.ResetSubStrategies(this.PlanetName);
+        
+        // Reset Staff
+
+        // Reset SpendableInfluence?
+        // Make domination harder somehow?
+
+    }  
 }
 
 public enum ProductionState

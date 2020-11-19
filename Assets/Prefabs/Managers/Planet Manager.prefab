@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 319290794967186618}
   - component: {fileID: 319290794967186617}
-  - component: {fileID: 3044721273046410350}
   - component: {fileID: 722825126495030029}
   - component: {fileID: 2907862233260980984}
   - component: {fileID: 8296420704356105815}
@@ -52,28 +51,6 @@ MonoBehaviour:
   OnPlanetChange:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3044721273046410350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319290794967186616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7fea2572f9cfb419a4f5f7866a04f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  testStaff: {fileID: 0}
-  FirstName:
-    Name: FirstName
-    Words: []
-  LastName:
-    Name: 
-    Words: []
-  Title:
-    Name: 
-    Words: []
 --- !u!114 &722825126495030029
 MonoBehaviour:
   m_ObjectHideFlags: 0

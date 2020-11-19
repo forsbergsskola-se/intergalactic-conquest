@@ -3584,6 +3584,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
+      propertyPath: StaffCard
+      value: 
+      objectReference: {fileID: 8995531165549946946, guid: 2a9f2094fc4c8914387802641337aac3, type: 3}
+    - target: {fileID: 3044721273046410350, guid: bf00b058b2d1a254f8aa191d7dcbb616, type: 3}
       propertyPath: Title.Words.Array.size
       value: 1
       objectReference: {fileID: 0}

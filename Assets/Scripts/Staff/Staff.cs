@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 public class Staff : ScriptableObject
 {
     [Header("Staff Information")]
-    public string Name;
+    public string StaffName;
 
     [Space]
     public string Title;
