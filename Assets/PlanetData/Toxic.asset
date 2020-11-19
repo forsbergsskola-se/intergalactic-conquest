@@ -16,11 +16,11 @@ MonoBehaviour:
   planetBonusList: {fileID: 11400000, guid: 3a87174d6896a0447bb61e2152ebc5a5, type: 2}
   State: 1
   PlanetName: 5
-  StartingInfluence: 10000
+  StartingInfluence: 0
   music: {fileID: 8300000, guid: 97ec948ed8d584745904e7cface2a357, type: 3}
   Staff: {fileID: 11400000, guid: fd79881c0ed60c3498c581b127e643d2, type: 2}
   UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
-  InfluenceGoal: 20000
+  InfluenceGoal: 100000
   OnInfluenceChange:
     m_PersistentCalls:
       m_Calls: []
