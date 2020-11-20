@@ -17,11 +17,11 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: f175a6cdfa375cc46b00d43eb4468531, type: 2}
   volumeControl:
   - name: General
-    volume: 0.3021622
-    tempVolume: 0.3021622
+    volume: 1
+    tempVolume: 1
   - name: Music
-    volume: 0.7713815
-    tempVolume: 0.7713815
+    volume: 1
+    tempVolume: 1
   - name: SFX
-    volume: 0.0001
-    tempVolume: 0.0001
+    volume: 1
+    tempVolume: 1
