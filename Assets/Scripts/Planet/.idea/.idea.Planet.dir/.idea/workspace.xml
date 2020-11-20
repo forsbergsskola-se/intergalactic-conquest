@@ -20,17 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="528d9b90-ebad-4187-8cec-16b4aea00b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Dark.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Dark.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Earth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Earth.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Fire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Fire.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Light.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Light.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Sand.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Sand.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Toxic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Toxic.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Water.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Water.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlanetData/Wind.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlanetData/Wind.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Planet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/SolarSystem.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Planet.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605698728736</updated>
-      <workItem from="1605698732913" duration="14672000" />
+      <workItem from="1605698732913" duration="15926000" />
     </task>
     <servers />
   </component>
