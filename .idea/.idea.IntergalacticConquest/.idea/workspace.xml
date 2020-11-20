@@ -20,25 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20877b50-a83a-42f0-8833-bf13b8975812" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntergalacticConquest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Dark.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Dark.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Earth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Earth.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Fire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Fire.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Light.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Light.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Sand.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Sand.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Toxic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Toxic.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Water.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Water.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlanetData/Wind.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetData/Wind.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Influence/InfluenceProduction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Influence/InfluenceProduction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/Planet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/StrategyBranch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/SubStrategy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradeList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StrategyData.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
