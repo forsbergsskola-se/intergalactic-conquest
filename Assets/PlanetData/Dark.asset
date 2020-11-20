@@ -20,6 +20,7 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: d9234f13335763146b50dba374d16149, type: 3}
   Staff: {fileID: 0}
   UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}
+  subStrategyList: {fileID: 11400000, guid: 48cb5da0502a3734dba590d9e07bdbff, type: 2}
   InfluenceGoal: 100000
   gameWideInfluence: {fileID: 11400000, guid: a3105e1b872943b40af5314104eebf40, type: 2}
   OnInfluenceChange:

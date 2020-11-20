@@ -38,6 +38,14 @@ public class UpgradeList : ScriptableObject
         return u;
     }
     
+    public void ResetUpgrades(PlanetName planetName)
+    {
+        foreach (var upgrade in upgradeList)
+        {
+            upgrade.Reset(planetName);
+        }
+    }
+    
 
 
 }

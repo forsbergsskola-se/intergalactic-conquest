@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Denni\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Denni\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_IntergalacticConquest.-1831231090.00" t="ExcludeRecursive" />
-    <e p="F:\Unity_Git\IntergalacticConquest" t="IncludeRecursive">
+    <e p="C:\repos\Unity\- Forsberg\IntergalacticConquest" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -23,6 +21,7 @@
           </e>
           <e p="PersistentData.cs" t="Include" />
           <e p="Planet" t="Include">
+            <e p="AudioChanger.cs" t="Include" />
             <e p="ClickablePlanet.cs" t="Include" />
             <e p="Planet.cs" t="Include" />
             <e p="PlanetBonusList.cs" t="Include" />
@@ -33,12 +32,18 @@
           <e p="PlanetMenuUI.cs" t="Include" />
           <e p="ResetProgressButton.cs" t="Include" />
           <e p="SolarSystem.cs" t="Include" />
-          <e p="Staff.cs" t="Include" />
+          <e p="Staff" t="Include">
+            <e p="HireMenu.cs" t="Include" />
+            <e p="Staff.cs" t="Include" />
+            <e p="StaffCard.cs" t="Include" />
+            <e p="StaffGenerator.cs" t="Include" />
+          </e>
           <e p="Strategies" t="Include">
             <e p="IStrategy.cs" t="Include" />
             <e p="StrategyBranch.cs" t="Include" />
             <e p="StrategyType.cs" t="Include" />
             <e p="SubStrategy.cs" t="Include" />
+            <e p="SubStrategyList.cs" t="Include" />
           </e>
           <e p="StrategyButton.cs" t="Include" />
           <e p="TimeKeeper.cs" t="Include" />
@@ -53,5 +58,7 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\David\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\David\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_IntergalacticConquest.-1295453724.00" t="ExcludeRecursive" />
   </component>
 </project>

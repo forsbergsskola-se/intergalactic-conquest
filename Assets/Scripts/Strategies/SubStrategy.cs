@@ -15,6 +15,12 @@ public class SubStrategy : ScriptableObject, IStrategy
     
     public int GetLevel(PlanetName planetName)
     {
+        string saveName = savePrefix + planetName + Enum.GetName(typeof (StrategyType), this.strategyType);;
+        return PlayerPrefs.GetInt(saveName);
+    }
+
+    public int GetLevel(PlanetName planetName, StrategyType s)
+    {
         string saveName = savePrefix + planetName + Enum.GetName(typeof (StrategyType), strategyType);;
         return PlayerPrefs.GetInt(saveName);
     }
@@ -34,5 +40,16 @@ public class SubStrategy : ScriptableObject, IStrategy
     public float GetCost(PlanetName planetName)
     {
         return costCoefficient * Mathf.Pow(costBase, GetLevel(planetName));
+    }
+
+    // sets this strategy for this planet to level 0
+    public void ResetSubStrategy(PlanetName planetName)
+    {
+        SetLevel(planetName, 0);
+    }
+    
+    public StrategyType GetStrategyType()
+    {
+        return this.strategyType;
     }
 }

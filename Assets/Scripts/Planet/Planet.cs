@@ -21,6 +21,7 @@ public class Planet : ScriptableObject
     
 
     [Space] [SerializeField] private UpgradeList UpgradeList;
+    [SerializeField] public SubStrategyList subStrategyList;
 
     [Header("Domination")] public float InfluenceGoal;
 
@@ -103,20 +104,20 @@ public class Planet : ScriptableObject
     private void ResetPlanet()
     {
         // Reset Upgrades
-        //this.UpgradeList.ResetUpgrades(this.PlanetName);
+        this.UpgradeList.ResetUpgrades(this.PlanetName);
         
         // Reset TotalInfluence
         this.TotalInfluence = 0.0f;
         
         // Reset SubStrategy levels
-        //this.subStrategyList.ResetSubStrategies(this.PlanetName);
+        this.subStrategyList.ResetSubStrategies(this.PlanetName);
         
         // Reset Staff
 
         // Reset SpendableInfluence?
         // Make domination harder somehow?
 
-    }  
+    }
 }
 
 public enum ProductionState
