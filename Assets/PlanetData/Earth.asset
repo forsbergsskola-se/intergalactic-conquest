@@ -16,7 +16,7 @@ MonoBehaviour:
   planetBonusList: {fileID: 11400000, guid: 3461874bd6a1f0748a34ea79b7dab7d1, type: 2}
   State: 0
   PlanetName: 0
-  StartingInfluence: 0
+  StartingInfluence: 1000
   music: {fileID: 8300000, guid: 3ccee5d7d865cee439ebe6f7d7e786d9, type: 3}
   Staff: {fileID: 0}
   UpgradeList: {fileID: 11400000, guid: 6b25952f17c570b43b25a11829d0bbcd, type: 2}

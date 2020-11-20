@@ -69,8 +69,8 @@ public class Planet : ScriptableObject
     private void Awake()
     {
         string planetName = Enum.GetName(typeof(PlanetName), this.PlanetName);
-        this.spendableInfluenceSaveName = "influence_" + planetName;
-        this.totalInfluenceSaveName = "influence_" + planetName;
+        this.spendableInfluenceSaveName = "influence_spendable_" + planetName;
+        this.totalInfluenceSaveName = "influence_total_" + planetName;
     }
 
     public float GetPlanetBonusMultiplier(StrategyType strategyType)
